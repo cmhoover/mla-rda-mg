@@ -143,62 +143,101 @@
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don Giovanni. <ph outputclass="sf">$p</ph> Madamina, il catalogo è questo.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph
+                              outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don
+                           Giovanni. <ph outputclass="sf">$p</ph> Madamina, il catalogo è
+                           questo.</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don Giovanni. <ph outputclass="sf">$p</ph> Là ci darem la mano.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph
+                              outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don
+                           Giovanni. <ph outputclass="sf">$p</ph> Là ci darem la mano.</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don Giovanni. <ph outputclass="sf">$p</ph> Don Ottavio, son morta.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph
+                              outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don
+                           Giovanni. <ph outputclass="sf">$p</ph> Don Ottavio, son morta.</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don Giovanni. <ph outputclass="sf">$p</ph> Dalla sua pace.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph
+                              outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don
+                           Giovanni. <ph outputclass="sf">$p</ph> Dalla sua pace.</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don Giovanni. <ph outputclass="sf">$p</ph> Finch'han dal vino.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph
+                              outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don
+                           Giovanni. <ph outputclass="sf">$p</ph> Finch'han dal vino.</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don Giovanni. <ph outputclass="sf">$p</ph> Batti, batti, o bel Masetto.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph
+                              outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don
+                           Giovanni. <ph outputclass="sf">$p</ph> Batti, batti, o bel
+                           Masetto.</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don Giovanni. <ph outputclass="sf">$p</ph> Deh, vieni alla finestra.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph
+                              outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don
+                           Giovanni. <ph outputclass="sf">$p</ph> Deh, vieni alla finestra.</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don Giovanni. <ph outputclass="sf">$p</ph> Vedrai, carino, se sei buonino.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph
+                              outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don
+                           Giovanni. <ph outputclass="sf">$p</ph> Vedrai, carino, se sei
+                           buonino.</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don Giovanni. <ph outputclass="sf">$p</ph> Mio Tesoro.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph
+                              outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don
+                           Giovanni. <ph outputclass="sf">$p</ph> Mio Tesoro.</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don Giovanni. <ph outputclass="sf">$p</ph> In quali eccessi.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph
+                              outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don
+                           Giovanni. <ph outputclass="sf">$p</ph> In quali eccessi.</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don Giovanni. <ph outputclass="sf">$p</ph> Crudele? Ah no, mio bene.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph
+                              outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don
+                           Giovanni. <ph outputclass="sf">$p</ph> Crudele? Ah no, mio bene.</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don Giovanni. <ph outputclass="sf">$p</ph> Finale.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Mozart, Wolfgang Amadeus, <ph
+                              outputclass="sf">$d</ph> 1756-1791. <ph outputclass="sf">$t</ph> Don
+                           Giovanni. <ph outputclass="sf">$p</ph> Finale.</entry>
                      </row>
                      <row valign="top" outputclass="exampleCaption">
                         <entry namest="field" nameend="data" outputclass="marcComment">Conventional collective title <term>Selections</term> used as the preferred title for parts of a musical work. Preferred title for each part also recorded separately in access points.</entry>
@@ -345,22 +384,34 @@
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Hindemith, Paul, <ph outputclass="sf">$d</ph> 1895-1963. <ph outputclass="sf">$t</ph> Sonatas, <ph outputclass="sf">$m</ph> oboe, piano.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Hindemith, Paul, <ph
+                              outputclass="sf">$d</ph> 1895-1963. <ph outputclass="sf">$t</ph>
+                           Sonatas, <ph outputclass="sf">$m</ph> oboe, piano.</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Hindemith, Paul, <ph outputclass="sf">$d</ph> 1895-1963. <ph outputclass="sf">$t</ph> Sonatas, <ph outputclass="sf">$m</ph> clarinet, piano.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Hindemith, Paul, <ph
+                              outputclass="sf">$d</ph> 1895-1963. <ph outputclass="sf">$t</ph>
+                           Sonatas, <ph outputclass="sf">$m</ph> clarinet, piano.</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Hindemith, Paul, <ph outputclass="sf">$d</ph> 1895-1963. <ph outputclass="sf">$t</ph> Sonatas, <ph outputclass="sf">$m</ph> English horn, piano.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Hindemith, Paul, <ph
+                              outputclass="sf">$d</ph> 1895-1963. <ph outputclass="sf">$t</ph>
+                           Sonatas, <ph outputclass="sf">$m</ph> English horn, piano.</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Hindemith, Paul, <ph outputclass="sf">$d</ph> 1895-1963. <ph outputclass="sf">$t</ph> Sonatas, <ph outputclass="sf">$m</ph> flute, piano.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Hindemith, Paul, <ph
+                              outputclass="sf">$d</ph> 1895-1963. <ph outputclass="sf">$t</ph>
+                           Sonatas, <ph outputclass="sf">$m</ph> flute, piano.</entry>
                      </row>
                      <row valign="top" outputclass="exampleCaption">
                         <entry namest="field" nameend="data" outputclass="marcComment">Preferred title for an aggregating work with a generic title recorded as a conventional collective title. Preferred titles for individual works aggregated recorded as components of authorized access points.</entry>
@@ -392,22 +443,38 @@
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Strauss, Richard, <ph outputclass="sf">$d</ph> 1864-1949. <ph outputclass="sf">$t</ph> Lieder, <ph outputclass="sf">$n</ph> op. 10. <ph outputclass="sf">$p</ph> Nichts.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Strauss, Richard, <ph
+                              outputclass="sf">$d</ph> 1864-1949. <ph outputclass="sf">$t</ph>
+                           Lieder, <ph outputclass="sf">$n</ph> op. 10. <ph outputclass="sf">$p</ph>
+                           Nichts.</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Strauss, Richard, <ph outputclass="sf">$d</ph> 1864-1949. <ph outputclass="sf">$t</ph> Lieder, <ph outputclass="sf">$n</ph> op. 39. <ph outputclass="sf">$n</ph> Lieses Lied.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Strauss, Richard, <ph
+                              outputclass="sf">$d</ph> 1864-1949. <ph outputclass="sf">$t</ph>
+                           Lieder, <ph outputclass="sf">$n</ph> op. 39. <ph outputclass="sf">$n</ph>
+                           Lieses Lied.</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Strauss, Richard, <ph outputclass="sf">$d</ph> 1864-1949. <ph outputclass="sf">$t</ph> Lieder, <ph outputclass="sf">$n</ph> op. 17. <ph outputclass="sf">$n</ph> Ständchen.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Strauss, Richard, <ph
+                              outputclass="sf">$d</ph> 1864-1949. <ph outputclass="sf">$t</ph>
+                           Lieder, <ph outputclass="sf">$n</ph> op. 17. <ph outputclass="sf">$n</ph>
+                           Ständchen.</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Strauss, Richard, <ph outputclass="sf">$d</ph> 1864-1949. <ph outputclass="sf">$t</ph> Lieder, <ph outputclass="sf">$n</ph> op. 29. <ph outputclass="sf">$n</ph> Schlagende Herzen.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Strauss, Richard, <ph
+                              outputclass="sf">$d</ph> 1864-1949. <ph outputclass="sf">$t</ph>
+                           Lieder, <ph outputclass="sf">$n</ph> op. 29. <ph outputclass="sf">$n</ph>
+                           Schlagende Herzen.</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field">700</entry>
@@ -1054,7 +1121,8 @@
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">348</entry>
                         <entry colname="ind" outputclass="marcInd">##</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$c</ph> chord symbols <ph outputclass="sf">$c</ph> guitar chord diagrams</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$c</ph>
+                           plainsong notation</entry>
                      </row>
                      <row valign="top" outputclass="exampleCaption">
                         <entry namest="field" nameend="data" outputclass="marcComment">Or</entry>
@@ -1067,10 +1135,12 @@
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">546</entry>
                         <entry colname="ind" outputclass="marcInd">##</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$b</ph> Chord symbols; <ph outputclass="sf">$b</ph> Guitar chord diagrams.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$b</ph>
+                           Plainsong notation.</entry>
                      </row>
                      <row valign="top" outputclass="exampleCaption">
-                        <entry namest="field" nameend="data" outputclass="marcComment">Resource is a "piano-vocal-guitar" score; mixed controlled and uncontrolled terms.</entry>
+                        <entry namest="field" nameend="data" outputclass="marcComment">Resource is a
+                           score that includes mixed controlled and uncontrolled terms.</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -1084,12 +1154,14 @@
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">348</entry>
                         <entry colname="ind" outputclass="marcInd">##</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$c</ph> chord symbols <ph outputclass="sf">$c</ph> guitar chord diagrams</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$c</ph>
+                           plainsong notation</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">546</entry>
                         <entry colname="ind" outputclass="marcInd">##</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> English, French, Italian and Azerbaijani words.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph>
+                           Latin words.</entry>
                      </row>
                      <row valign="top" outputclass="exampleConjunction">
                         <entry namest="field" nameend="data" outputclass="marcComment">Or</entry>
@@ -1097,12 +1169,14 @@
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">546</entry>
                         <entry colname="ind" outputclass="marcInd">##</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> English, French, Italian and Azerbaijani words.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph>
+                           Latin words.</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">546</entry>
                         <entry colname="ind" outputclass="marcInd">##</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$b</ph> Chord symbols; <ph outputclass="sf">$b</ph> Guitar chord diagrams.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$b</ph>
+                           Plainsong notation.</entry>
                      </row>
                      <row valign="top" outputclass="exampleConjunction">
                         <entry namest="field" nameend="data" outputclass="marcComment">Not</entry>
@@ -1110,7 +1184,8 @@
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">546</entry>
                         <entry colname="ind" outputclass="marcInd">##</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> English, French, Italian and Azerbaijani words; <ph outputclass="sf">$b</ph> Chord symbols; <ph outputclass="sf">$b</ph> Guitar chord diagrams.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph>
+                           Latin words; <ph outputclass="sf">$b</ph> Plainsong notation.</entry>
                      </row>
                      <row valign="top" outputclass="exampleCaption">
                         <entry namest="field" nameend="data" outputclass="marcComment">Uncontrolled terms recorded alongside a language note.</entry>
@@ -1260,7 +1335,15 @@
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">041</entry>
                         <entry colname="ind" outputclass="marcInd">0_</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$d</ph> frm <ph outputclass="sf">$d</ph> ita <ph outputclass="sf">$d</ph> lat <ph outputclass="sf">$e</ph> dut <ph outputclass="sf">$e</ph> eng <ph outputclass="sf">$e</ph> fre <ph outputclass="sf">$e</ph> frm <ph outputclass="sf">$e</ph> lat <ph outputclass="sf">$e</ph> ita <ph outputclass="sf">$n</ph> frm <ph outputclass="sf">$n</ph> frm <ph outputclass="sf">$n</ph> lat <ph outputclass="sf">$g</ph> dut <ph outputclass="sf">$g</ph> eng <ph outputclass="sf">$g</ph> fre <ph outputclass="sf">$g</ph> ger</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$d</ph>
+                           frm <ph outputclass="sf">$d</ph> ita <ph outputclass="sf">$d</ph> lat <ph
+                              outputclass="sf">$e</ph> dut <ph outputclass="sf">$e</ph> eng <ph
+                              outputclass="sf">$e</ph> fre <ph outputclass="sf">$e</ph> frm <ph
+                              outputclass="sf">$e</ph> lat <ph outputclass="sf">$e</ph> ita <ph
+                              outputclass="sf">$n</ph> frm <ph outputclass="sf">$n</ph> ita <ph
+                              outputclass="sf">$n</ph> lat <ph outputclass="sf">$g</ph> dut <ph
+                              outputclass="sf">$g</ph> eng <ph outputclass="sf">$g</ph> fre <ph
+                              outputclass="sf">$g</ph> ger</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">546</entry>
@@ -1792,10 +1875,15 @@
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Cage, John. <ph outputclass="sf">$t</ph> Melodies, <ph outputclass="sf">$m</ph> violin, keyboard instrument.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Cage, John. <ph outputclass="sf"
+                              >$t</ph> Melodies, <ph outputclass="sf">$m</ph> violin, keyboard
+                           instrument.</entry>
                      </row>
                      <row valign="top" outputclass="exampleCaption">
-                        <entry namest="field" nameend="data" outputclass="marcComment">The <term>expression manifested</term> relationship is implicit in field 100+240, but not in field 700.</entry>
+                        <entry namest="field" nameend="data" outputclass="marcComment">The
+                              <term>contains</term> relationship is implicit in field 100+240, but
+                           not in field 700.</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -2796,7 +2884,10 @@
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">12</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Vaughan Williams, Ralph, <ph outputclass="sf">$d</ph> 1872-1958. <ph outputclass="sf">$t</ph> Lark ascending.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph>
+                           Contains: <ph outputclass="sf">$a</ph> Vaughan Williams, Ralph, <ph
+                              outputclass="sf">$d</ph> 1872-1958. <ph outputclass="sf">$t</ph> Lark
+                           ascending.</entry>
                      </row>
                      <row valign="top" outputclass="exampleCaption">
                         <entry namest="field" nameend="data" outputclass="marcComment">Audio recording containing 19 works; access point given for a representative expression of only the most prominently named work.</entry>
@@ -3569,6 +3660,96 @@
                      </row>
                      <row valign="top" outputclass="exampleCaption">
                         <entry namest="field" nameend="data" outputclass="marcComment">Resource previously released in mono and stereo formats; the issue numbers of the original releases are known.</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </div>
+         <div outputclass="rdaPageSubgroup">
+            <p outputclass="oldNumber">2.15.1.5</p>
+            <table frame="none" outputclass="bpExample" id="table_p3d_ysq_23c">
+               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                  <colspec colname="field" colnum="1" colwidth="2*"/>
+                  <colspec colname="ind" colnum="2" colwidth="3*"/>
+                  <colspec colname="data" colnum="3" colwidth="25*"/>
+                  <tbody>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">028</entry>
+                        <entry colname="ind" outputclass="marcInd">02</entry>
+                        <entry colname="data" outputclass="marcText">VDE-CD-552<ph outputclass="sf"
+                              >$b </ph>VDE-Gallo</entry>
+                     </row>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">028</entry>
+                        <entry colname="ind" outputclass="marcInd">02</entry>
+                        <entry colname="data" outputclass="marcText">VDE-552<ph outputclass="sf">$b
+                              </ph>VDE-Gallo<ph outputclass="sf">$q </ph>(container)</entry>
+                     </row>
+                     <row valign="top" outputclass="exampleCaption">
+                        <entry namest="field" nameend="data" outputclass="marcComment">Resource is
+                           an audio disc with separate identifiers for the disc and
+                           container.</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+            <table frame="none" outputclass="bpExample" id="table_tvc_htq_23c">
+               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                  <colspec colname="field" colnum="1" colwidth="2*"/>
+                  <colspec colname="ind" colnum="2" colwidth="3*"/>
+                  <colspec colname="data" colnum="3" colwidth="25*"/>
+                  <tbody>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">028</entry>
+                        <entry colname="ind" outputclass="marcInd">02</entry>
+                        <entry colname="data" outputclass="marcText">MS-003<ph outputclass="sf">$b
+                           </ph>Mosaic</entry>
+                     </row>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">028</entry>
+                        <entry colname="ind" outputclass="marcInd">02</entry>
+                        <entry colname="data" outputclass="marcText">B2-82418<ph outputclass="sf">$b
+                              </ph>Mosaic<ph outputclass="sf">$q </ph>(container)</entry>
+                     </row>
+                     <row valign="top" outputclass="exampleCaption">
+                        <entry namest="field" nameend="data" outputclass="marcComment">Resource is
+                           an audio disc with distinct publisher numbers for the disc and
+                           container.</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+            <table frame="none" outputclass="bpExample" id="table_ffr_ltq_23c">
+               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                  <colspec colname="field" colnum="1" colwidth="2*"/>
+                  <colspec colname="ind" colnum="2" colwidth="3*"/>
+                  <colspec colname="data" colnum="3" colwidth="25*"/>
+                  <tbody>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">028</entry>
+                        <entry colname="ind" outputclass="marcInd">02</entry>
+                        <entry colname="data" outputclass="marcText">P 406<ph outputclass="sf">$b
+                           </ph>Folkways Recs. &amp; Serv. Corp.</entry>
+                     </row>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">028</entry>
+                        <entry colname="ind" outputclass="marcInd">02</entry>
+                        <entry colname="data" outputclass="marcText">EFL 1406<ph outputclass="sf">$b
+                           </ph>Folkways Recs. &amp; Serv. Corp.<ph outputclass="sf">$q
+                           </ph>(container)</entry>
+                     </row>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">028</entry>
+                        <entry colname="ind" outputclass="marcInd">02</entry>
+                        <entry colname="data" outputclass="marcText">FP 406 <ph outputclass="sf">$b
+                           </ph>Folkways Recs. &amp; Serv. Corp. <ph outputclass="sf">$q
+                           </ph>(matrix)</entry>
+                     </row>
+                     <row valign="top" outputclass="exampleCaption">
+                        <entry namest="field" nameend="data" outputclass="marcComment">Resource is
+                           an audio disc with separate identifiers for the disc, container, and
+                           matrix number; the matrix number has been recorded because it might
+                           appear with "FP" in catalogs or citations.</entry>
                      </row>
                   </tbody>
                </tgroup>

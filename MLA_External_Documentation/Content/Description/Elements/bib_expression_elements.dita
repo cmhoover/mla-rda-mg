@@ -13,5 +13,67 @@
             </ul>
             <p>This recommendation is reflected in the MLA Best Practices in the RDA Toolkit.</p>
         </section>
+        <section id="section_zkq_rk1_33c">
+            <title outputclass="rdaPage">form of musical notation</title>
+            <p>The October 2024 Toolkit update included the addition of four new terms to add to the
+                RDA Form of Musical Notation Vocabulary Encoding Scheme. These new terms, which are
+                linked to images for visual reference, included <xref
+                    href="https://en.musicad.eu/wiki/Chord_symbols" format="html" scope="external"
+                    >chord symbols</xref>, <xref
+                    href="https://en.wikipedia.org/wiki/Chord_diagram_%28music%29" format="html"
+                    scope="external">chord diagrams</xref>, <xref
+                    href="https://en.wikipedia.org/wiki/Figured_bass" format="html" scope="external"
+                    >figured bass notation</xref>, and <xref
+                    href="https://en.wikipedia.org/wiki/Shape_note" format="html" scope="external"
+                    >shape note notation</xref>. These terms can all be recorded as controlled
+                vocabulary terms in field 348 $c. </p>
+        </section>
+        <section id="section_gxb_ln1_33c">
+            <title outputclass="rdaPage">format of notated music</title>
+            <p>The October 2025 Toolkit update included the addition of the term keyboard reduction
+                score to the RDA Format of Notated Music Vocabulary Encoding Scheme to describe
+                instrumental scores in which the instrumental accompaniment has been reduced for
+                keyboard or another chordal instrument. This term can be recorded as a controlled
+                vocabulary term in fields 300 and 348 $a.</p>
+            <div outputclass="rdaPageSubgroup">
+                <table frame="none" outputclass="bpExample" id="table_hxb_ln1_33c">
+                    <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                        <colspec colname="field" colnum="1" colwidth="2*"/>
+                        <colspec colname="ind" colnum="2" colwidth="3*"/>
+                        <colspec colname="data" colnum="3" colwidth="25*"/>
+                        <tbody>
+                            <row valign="top" outputclass="marcContent">
+                                <entry colname="field" outputclass="marcTag">300</entry>
+                                <entry colname="ind" outputclass="marcInd"/>
+                                <entry colname="data" outputclass="marcText">1 keyboard reduction
+                                    score (28 pages) ; <ph outputclass="sf">$c </ph>31 cm</entry>
+                            </row>
+                            <row valign="top" outputclass="marcContent">
+                                <entry colname="field" outputclass="marcTag">348</entry>
+                                <entry colname="ind" outputclass="marcInd"/>
+                                <entry colname="data" outputclass="marcText">keyboard reduction
+                                    score <ph outputclass="sf">$2 </ph>rdafnm</entry>
+                            </row>
+                            <row valign="top" outputclass="exampleCaption">
+                                <entry namest="field" nameend="data" outputclass="marcComment"/>
+                            </row>
+                            <row valign="top" outputclass="marcContent">
+                                <entry colname="field" outputclass="marcTag">382</entry>
+                                <entry colname="ind" outputclass="marcInd">01</entry>
+                                <entry colname="data" outputclass="marcText">flute <ph
+                                        outputclass="sf">$n </ph>1 <ph outputclass="sf">$a
+                                    </ph>keyboard instrument<ph outputclass="sf">$n </ph>1 <ph
+                                        outputclass="sf">$2 </ph>lcmpt</entry>
+                            </row>
+                            <row valign="top" outputclass="exampleCaption">
+                                <entry namest="field" nameend="data" outputclass="marcComment">Work
+                                    originally written for flute and orchestra; orchestral
+                                    accompaniment reduced for keyboard instrument.</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </div>
+        </section>
     </body>
 </topic>

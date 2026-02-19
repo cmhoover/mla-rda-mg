@@ -9,7 +9,7 @@
             </div>
             <div outputclass="centered largebold padding-top-60">
                 <p><ph conref="../main.ditamap#ph_jq1_4zq_wwb"/> (draft for public comment)</p>
-                <p><ph conref="../main.ditamap#ph_gtk_4cr_wwb"/></p>
+                <p>February 17, 2026</p>
             </div>
             <div outputclass="centered padding-top-60">
                 <p outputclass="largebold">Prepared by the <xref href="https://cmc.wp.musiclibraryassoc.org/content-standards-subcommittee/" format="html" scope="external">Content Standards Subcommittee</xref>, Cataloging and Metadata Committee, Music Library Association<fn outputclass="normal-size-weight">Membership and affiliations at the time of the MLA Annual Meeting, February-March 2022.</fn></p>
@@ -78,8 +78,8 @@
                             <entry>University of Georgia</entry>
                         </row>
                         <row>
-                            <entry>????, chair, 2024-2028</entry>
-                            <entry>????</entry>
+                            <entry>Chelsea Hoover, chair, 2024-2028</entry>
+                            <entry>Syracuse University</entry>
                         </row>
                     </tbody>
                 </tgroup>
@@ -87,8 +87,15 @@
         <section id="section_lxz_d3y_nsb" outputclass="forcePageBefore">
             <title>Citation and Permissions</title>
             <p>To cite this document:</p>
-            <p><b>Chicago (17th):</b> MLA Content Standards Subcommittee. <cite>Music Library Association RDA Metadata Guidance</cite>. <ph conref="../main.ditamap#ph_jq1_4zq_wwb"/>. <xref href="https://wp.blog.musiclibraryassoc.org/mla-best-practices/" format="html" scope="external"/>.</p>
-            <p><b>APA (7th):</b> MLA Content Standards Subcommittee. <i>Music Library Association RDA Metadata Guidance</i> (<ph conref="../main.ditamap#ph_jq1_4zq_wwb"/>). <xref href="https://wp.blog.musiclibraryassoc.org/mla-best-practices/" format="html" scope="external"/>.</p>
+            <p><b>Chicago (17th):</b> MLA Content Standards Subcommittee. <cite>Music Library
+                    Association RDA Metadata Guidance</cite>. <ph
+                    conref="../main.ditamap#ph_jq1_4zq_wwb"/>. <xref
+                    href="https://wp.blog.musiclibraryassoc.org/mla-best-practices/" format="html"
+                    scope="external"/>.</p>
+            <p><b>APA (7th):</b> MLA Content Standards Subcommittee. <i>Music Library Association
+                    RDA Metadata Guidance</i> (<ph conref="../main.ditamap#ph_jq1_4zq_wwb"/>). <xref
+                    href="https://wp.blog.musiclibraryassoc.org/mla-best-practices/" format="html"
+                    scope="external"/>.</p>
             <p outputclass="padding-top-60">This document and the MLA Best Practices are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit <xref href="https://creativecommons.org/licenses/by-nc-sa/4.0/" format="html" scope="external"/>.</p>
         </section>
     </body>
