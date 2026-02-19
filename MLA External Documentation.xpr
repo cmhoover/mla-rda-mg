@@ -7002,6 +7002,10 @@ ${caret}</String>
                         </codeTemplateItem-array>
                     </entry>
                     <entry>
+                        <String>enable.project.master.files.support</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
                         <String>key.code.templates.option.pane</String>
                         <Boolean>true</Boolean>
                     </entry>
