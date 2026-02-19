@@ -1,1 +1,0 @@
-define({"topics":[{"title":"Treatment of Representative Expressions","href":"Content\/LRM\/representative_expressions.html#unique_793980241","attributes":{"data-id":"unique_793980241"},"menu":{"hasChildren":false},"tocID":"unique_793980241-d364e245","topics":[]}]});
