@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="intro_interpreting_bps">
+    <title>Interpreting the MLA Best Practices</title>
+    <prolog>
+        <critdates>
+            <created date="2021-12-09"/>
+            <revised modified=""/>
+        </critdates>
+    </prolog>
+    <body>
+        <section id="section_o3p_rpc_wrb">
+            <title>Structure</title>
+            <p>In nearly all cases, each element for which there is MLA Best Practices guidance will have statements attached to the <term>Prerecording</term> and <term>Recording</term> headings. These provide high-level guidance. Details on the exact method of recording an element are usually attached to the appropriate subheadings, conditions, and options.</p>
+            <dl id="dl_jvl_pqc_wrb">
+                <dlentry>
+                    <dt><term>Prerecording</term> Heading</dt>
+                    <dd>General instructions on whether to record the element and under what conditions.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><term>Recording</term> Heading</dt>
+                    <dd>General instructions on what recording methods to use if the element is being recorded. In most cases, relevant MARC fields and subfields are indicated.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Subheadings</dt>
+                    <dd>General commentary or instructions applicable to a section of RDA text as whole, or to a recording method, etc., that has no associated options or conditions.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Conditions</dt>
+                    <dd>Guidance on how to interpret a condition.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Options</dt>
+                    <dd>Instructions on whether or not to apply the option and, in some cases, details of how to apply the option.</dd>
+                </dlentry>
+            </dl>
+            <p>In rare cases, a Best Practices statement may be attached directly to a specific paragraph or smaller section of text that lacks a distinct heading.</p>
+        </section>
+        <section id="section_w5y_tpc_wrb" outputclass="forcePageBefore">
+            <title>Standard Wording</title>
+            <p>The Best Practices make regular use of several standard phrases:</p>
+            <dl id="dl_qjc_4c3_wrb">
+                <dlentry>
+                    <dt>Routinely record</dt>
+                    <dd>Elements so marked are part of the minimum description of a resource in RDA, are flagged as Core by LC-PCC PS, or are otherwise felt by the Content Standards Subcommittee to be routinely valuable to transcribe or record for music resources.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>If feasible</dt>
+                    <dd>
+                        <p>Elements and options so marked may be omitted if recording them is not feasible.</p>
+                        <p>Cataloger's judgment dictates that elements which are difficult to ascertain or burdensome to transcribe or record do not fall into the category of "feasibility." The above criteria will vary from cataloger to cataloger, and from agency to agency. In an increasingly distributed global metadata environment, the burden of completeness need not rest with an individual metadata creator. Thus, these recommendations are equally intended to serve as guidance when enhancing existing metadata for music resources.</p>
+                    </dd>
+                </dlentry>
+                <dlentry>
+                    <dt>If readily ascertainable</dt>
+                    <dd>
+                        <p>Elements and options so marked may be omitted if the necessary information is not easily discoverable.</p>
+                        <p>Consider "readily ascertainable" to apply to information present on the resource being cataloged or information encountered during the course of routine authority research.</p>
+                    </dd>
+                </dlentry>
+                <dlentry>
+                    <dt>If required by local policy / unless directed by local policy</dt>
+                    <dd>
+                        <p>Recording methods and options so marked may be omitted unless needed by a cataloger's institution, e.g. to support identification, selection, or access in local discovery systems.</p>
+                        <p>In many cases this applies to elements where the current recommendation is to record data using a structured description, identifier, or IRI in order to support cleaner metadata, easier retrieval and data manipulation, or linked data applications, but earlier practice has generally relied on unstructured description. In MARC, this often applies to data that has been recorded in a general or specialized note field where it can only be easily recognized and used by a human interpreter. It may also apply to situations where generally applied standards for encoding the same type of information have changed over time (for example, MARC field 048 vs field 382 for medium of performance).</p>
+                        <p>The Content Standards Subcommittee recognizes that libraries operate with
+                            a wide variety of ILS platforms, discovery layers, technical support
+                            resources, etc. and may require that data be recorded according to
+                            earlier practice to ensure it is accessible to their users. In a shared
+                            cataloging environment, data should be recorded according to current
+                            recommendations; catalogers should feel no obligation to also record the
+                            same data according to earlier practice if doing so would be redundant.
+                            However, catalogers should feel free to supplement a description with
+                            information recorded according to earlier practice if they have a need
+                            to do so. Catalogers should generally not remove such information
+                            (providing it is correct) from records in a shared environment, even if
+                            it may technically be redundant in their own discovery systems.</p>
+                    </dd>
+                </dlentry>
+                <dlentry>
+                    <dt>In MARC:</dt>
+                    <dd>All instructions following this indication, to the end of the MLA Best Practices statement, are specific to cataloging in the MARC encoding scheme.</dd>
+                </dlentry>
+            </dl>
+        </section>
+    </body>
+</topic>

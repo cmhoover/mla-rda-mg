@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="aggregates">
+    <title>Aggregates</title>
+    <body>
+        <p>When providing analytic access points for the contents of an aggregate, follow LC-PCC practice and use the relationship element Manifestation: <xref href="https://access.rdatoolkit.org/en-US_ala-7917b114-5614-3571-94a6-2284a4339575" format="html" scope="external" outputclass="rdatk">expression manifested</xref> in all cases; the approved PCC relationship label for use in MARC subfield $i  is "Expression manifested."</p>
+        <p>Do not use the shortcut element Manifestation: <term>work manifested</term>.</p>
+        <section id="section_bjn_hn3_vrb">
+            <title>Collection Aggregates</title>
+            <p>Collection aggregates (compilations) are common among music resources. The treatment of a collection aggregate will vary based on the contents of the aggregate and the time and resources available to the cataloger describing it. The contents of an aggregate may be indicated in the following ways:</p>
+            <ul id="ul_r2d_vlz_2sb">
+                <li>Record a Manifestation: <term>note on manifestation</term> containing a complete or partial <xref href="https://access.rdatoolkit.org/PolicyStatement/Index?externalId=en-US_ala-e283cd5b-48cb-3c88-bcd5-82710221d82c#division_rdaId_b78194d1-9785-4430-ba30-41b977aefeac" format="html" scope="external" outputclass="lcpcctk">contents note</xref> listing the titles of the expressions aggregated</li>
+                <li>Record values of Expression: <xref href="https://access.rdatoolkit.org/en-US_ala-7af61468-85ab-3d86-ad8d-4a1158edb7c7" format="html" scope="external" outputclass="rdatk">authorized access point for expression</xref> for <xref href="https://access.rdatoolkit.org/PolicyStatement/Index?externalId=en-US_ala-e283cd5b-48cb-3c88-bcd5-82710221d82c#division_rdaId_6f69e3f9-2a71-4225-8c98-8a8896069ef5" format="html" scope="external" outputclass="lcpcctk">some or all of the expressions manifested</xref></li>
+                <li>Record both of the above</li>
+            </ul>
+            <p>In most cases, consider a complete contents note to be the baseline for accessibility and discoverability, unless the contents are otherwise indicated in another part of the record. For especially extensive compilations, or certain types of resources such as hymnals, a complete contents note may be impractical or unduly burdensome to record and may be abridged or omitted entirely. If a contents note is omitted, record a general summary of contents unless already indicated elsewhere in the record (e.g., "Contains 537 hymns.")</p>
+        </section>
+        <section id="section_uwm_tn3_vrb">
+            <title>Augmentation Aggregates</title>
+            <p>Augmentation aggregates are extremely common as the addition of even the most perfunctory supplementary content (e.g., a one-sentence preface or composer's note) is technically sufficient to turn a manifestation of a single work into an aggregate. However, most such additions do not rise to the level of bibliographic significance and may be acknowledged, if at all, in a <xref href="https://access.rdatoolkit.org/PolicyStatement/Index?externalId=en-US_ala-e283cd5b-48cb-3c88-bcd5-82710221d82c#division_rdaId_b78194d1-9785-4430-ba30-41b977aefeac" format="html" scope="external" outputclass="lcpcctk">contents note or other brief note</xref>, and the primary content otherwise described as though it stood alone.</p>
+            <p>For detailed guidance on specific types of augmenting content, see Manifestation: <xref href="https://access.rdatoolkit.org/en-US_ala-9d596c05-acc2-39b5-b52a-3274c90ab41d" format="html" scope="external" outputclass="rdatk">supplementary content</xref>, Manifestation: <xref href="https://access.rdatoolkit.org/en-US_ala-126a56dc-d07f-34bf-9e42-0bfa48a3e574" format="html" scope="external" outputclass="rdatk">illustrative content</xref>, and the <xref href="https://www.loc.gov/aba/rda/mgd/index.html" format="html" scope="external">LC-PCC Metadata Guidance Documentation</xref> for Aggregates under <i>Augmentation Aggregate. Access to Augmenting Content</i>.</p>
+        </section>
+        <section id="section_nsl_5n3_vrb">
+            <title>Parallel Aggregates</title>
+            <p>An extremely common case of parallel aggregates in music is a score issued with a set of parts: the same work expressed in two different formats of notated music and manifested in multiple units. Other than noting the extent and dimensions of the constituent units and Expression: <xref href="https://access.rdatoolkit.org/en-US_ala-c7dd67de-0e03-3a7f-9aa9-de3a8ac3c166" format="html" scope="external" outputclass="rdatk">format of notated music</xref> for each expression, it is unnecessary to specifically acknowledge the aggregate nature of such manifestations.</p>
+            <p>Another common case is manifestations of vocal works that include singing translations alongside the original language or, more rarely, a different translation. Follow <xref href="https://access.rdatoolkit.org/en-US_ala-cf0b18a4-5a55-3358-94b0-2d4fb5449314/div_txc_vr1_ffb" format="html" scope="external" outputclass="rdatk">LC-PCC practice for parallel translations</xref>. </p>
+        </section>
+    </body>
+</topic>

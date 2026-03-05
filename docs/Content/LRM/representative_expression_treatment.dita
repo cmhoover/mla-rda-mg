@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="representative_expressions">
+    <title>Treatment of Representative Expressions</title>
+    <body>
+        <section id="section_r3m_pbm_vrb">
+            <title>General Remarks</title>
+            <div>
+                <p>It is often unnecessary, and may in some cases be undesirable, to specifically identify an individual expression as a representative expression. In the MARC bibliographic environment, an expression that broadly meets the critieria for a representative expression may be treated as synonymous with the work for most relevant purposes, e.g., preferred titles and authorized access points.<fn>See the  <xref href="https://www.loc.gov/aba/rda/mgd/index.html" format="html" scope="external">narrative LC-PCC Metadata Guidance Documentation</xref> for Aggregates (under Collection Aggregate. Access to Content) and the  <xref href="https://www.loc.gov/aba/rda/mgd/expression/index.html" format="html" scope="external">LC-PCC Expression
+                            Metadata Guidance Documentation</xref> for Authorized access point for expression: Additional elements and designations.</fn></p>
+                <p>Do not record structured descriptions, identifiers, or IRIs for representative expression elements as independent elements in MARC bibliographic records for manifestations, regardless of whether or not the specific expression values manifested in the resource cataloged match a representative expression value. Record structured descriptions, identifiers, or IRIs for representative expression elements independently only in authority records for works.</p>
+                <note id="note_vl4_z45_vrb">Exception: Identifiers for values of Work: <term>language of representative expression</term> may be recorded in MARC field 041's subfields for original language(s) if deemed useful.</note>
+                <p>Record unstructured descriptions pertaining to representative expression elements if deemed useful (e.g., "Originally for flute and orchestra, arranged for flute and piano.")</p>
+            </div>
+        </section>
+        <example id="example_u5b_5mn_vrb">
+            <title>Example: key of expression</title>
+            <ul id="ul_jhc_vn5_vrb">
+                <li><b>Title proper of manifestation:</b> Sonata for piano in C major</li>
+                <li><b>Key of representative expression:</b> C major</li>
+                <li><b>Element recorded in bibliographic record:</b> Expression: <term>key of expression</term><ul id="ul_w4n_sn5_vrb">
+                        <li><b>Not</b>: Work: <term>key of representative expression</term></li>
+                    </ul></li>
+            </ul>
+        </example>
+        <section id="section_akb_qbm_vrb">
+            <title>Western Art Music and Similar Traditions</title>
+            <div id="div_scw_3cm_vrb">
+                <p>For Western art music or other musical traditions where most users, for most purposes, are concerned foremost with access to works and creators of works, in most cases consider that an expression broadly meets the criteria for being representative as long as it does not fall into any of the following categories:</p>
+                <ul id="ul_zxn_f43_vrb">
+                    <li>Arrangements, including vocal scores and chorus scores<note id="note_jgq_343_vrb">Follow <xref href="https://access.rdatoolkit.org/PolicyStatement/Index?externalId=en-US_ala-97969e46-98d5-30e5-84c4-8834ac28f2c8#section_colleft_h2_rdaId_53a737ee-b2e6-4685-9c7b-ee3fd13da560" format="html" scope="external" id="xref_c4p_ljm_vrb" outputclass="lcpcctk">LC-PCC PS for Expression: designation of version</xref> in deciding what does or does not constitute an arrangement</note></li>
+                    <li>Sketches, early drafts, etc.</li>
+                    <li>Translations into a language other than the original</li>
+                    <li>Other adaptations or alterations that change the genre, style, harmony, texture, etc. in ways significant enough to raise questions as to whether they may potentially constitute a new derivative work (see <xref href="https://access.rdatoolkit.org/en-US_ala-c3e1fff8-0a79-35c6-bee1-39b6b4c9ed35/p_ssl_3dy_hmb" format="html" scope="external" outputclass="rdatk">Work. Entity boundary</xref>) </li>
+                </ul>
+                <p>Put another way, generally consider an expression representative if values for Work: <xref href="https://access.rdatoolkit.org/en-US_ala-9bc07b7a-899c-3491-9d3b-65ee5c71cc25" format="html" scope="external" outputclass="rdatk">medium of performance of musical content of representative expression</xref>, Work: <xref href="https://access.rdatoolkit.org/en-US_ala-d592655f-f466-3dca-8fa1-b7ce993ab030" format="html" scope="external" outputclass="rdatk">key of representative expression</xref> (except as noted below), and Work: <xref href="https://access.rdatoolkit.org/en-US_ala-9dbad164-5722-3594-acc9-ed80b49c9e2b" format="html" scope="external" outputclass="rdatk">language of representative expression</xref> conform to "original or canonical" values (bearing in mind that, in some cases,
+                    multiple values may be "canonical") and no value of Expression: <xref href="https://access.rdatoolkit.org/en-US_ala-7bd21167-dc79-3e79-b5e1-46e7449778fb" format="html" scope="external" outputclass="rdatk">designation of version</xref> deviates significantly from what might reasonably be assumed to be the creator's original intent.</p>
+                <p>In most cases, <b>do not</b> consider the following when deciding if an expression is broadly representative:<ul id="ul_us3_cff_vrb">
+                        <li>Expression: <xref href="https://access.rdatoolkit.org/en-US_ala-1a6a5219-2cd5-3762-87e8-6ee28e327b8b" format="html" scope="external" outputclass="rdatk">content type</xref> (that is, notated music or performed music)<note id="note_r1g_kff_vrb">Exceptional cases might include, e.g., a notated music transcription of a work composed by directly manipulating audio samples, magnetic tape, etc.</note></li>
+                        <li>Expression: <xref href="https://access.rdatoolkit.org/en-US_ala-08699d76-022a-3473-94ae-f56f5fe45b1b" format="html" scope="external" outputclass="rdatk">creator agent of expression</xref> (or narrower elements)</li>
+                        <li>Transposition of key for vocal music, so long as no other alterations have been made to the original music</li>
+                        <li>Added instrumental accompaniment, so long as no alteration has been made to the original music</li>
+                    </ul></p>
+            </div>
+        </section>
+        <section id="section_qf2_zkm_vrb">
+            <title>Modern Popular Music and Similar Traditions</title>
+            <div id="div_fwv_jcm_vrb">
+                <note id="note_xlj_k45_4sb">The contents of this section are tentative and may change in future revisions.</note>
+                <p>For popular music of the 20th and 21st centuries, specific recorded expressions of performed music (often studio recordings, sometimes pieced together from multiple takes) may generally be perceived as the "original" or "canonical" expression of a musical work. The creator of the "canonical" expression may differ from the creator of the musical work. For example, the creator of the <term>work</term> "Never Gonna Give You Up" is the songwriting team Stock Aitken Waterman (or SAW). However, the work is almost universally known to the public via the <term>expression</term> recorded in 1986 by singer Rick Astley; in referring to any <i>other</i> performance, whether by a different agent or even by Astley himself, it would
+                    most likely have to be explicitly described to avoid misunderstanding. In this situation, we should likely consider that Astley's 1986 performance constitutes a "canonical" expression of the work.</p>
+                <p>Possible signs that a specific recorded expression constitutes a representative expression of a musical work may include:</p>
+                <ul id="ul_xxd_ysz_nsb">
+                    <li>The same expression of performed music is embodied in numerous manifestations, with or without augmenting content such as alternate takes, alternative live or studio performances, remixes, instrumental versions, etc.</li>
+                    <li>Discussions of a musical work in music journalism, scholarly literature, etc., explicitly reference the same recorded expression, or assume it unless explicitly stated otherwise.</li>
+                    <li>The same expression of performed music is frequently used as the basis for derivative works or expressions through sampling, remixing, quotation, etc.</li>
+                </ul>
+                <p>A compilation of recorded expressions (that is, an album) may collectively constitute the <xref href="https://access.rdatoolkit.org/en-US_ala-39db8725-25e2-3bcf-8a45-7ef37ec38c90/section_ygt_gvg_3lb" format="html" scope="external" outputclass="rdatk">representative expression of an aggregating work</xref>. See <xref href="aggregates_aaps.dita"/> for guidance on providing collective access to albums.</p>
+            </div>
+        </section>
+        <section id="section_e1p_c4m_vrb">
+            <title>Other Cases</title>
+            <div>
+                <p>If the music described does not fit neatly into either paradigm described above, apply cataloger's judgment in deciding whether the musical tradition represented is primarily work-focused, and therefore closer to the Western art music model, or primarily expression-focused, and therefore closer to the modern popular music model.</p>
+            </div>
+        </section>
+    </body>
+</topic>

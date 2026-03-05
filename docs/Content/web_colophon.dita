@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="web_colophon" outputclass="webonly">
+    <title>Version and Citation Information</title>
+    <body>
+        <section id="section_dth_gfr_wwb">
+            <title outputclass="centered">Publication Information</title>
+            <p outputclass="centered subtitle">Music Library Association </p>
+            <p outputclass="centered subtitle">RDA Metadata Guidance</p>
+            <div conref="frontmatter_notices.dita#frontmatter_notices/div_tcw_3zq_wwb"/>
+        </section>
+        <section conref="frontmatter_notices.dita#frontmatter_notices/section_lxz_d3y_nsb" id="section_gqt_s2r_wwb"><title/><p/></section>
+    </body>
+</topic>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="formats_electronic_remote">
+    <title>Additional Guidelines for Remote-Access Electronic Resources</title>
+    <body>
+        <p>These instructions apply to resources that are available through a subscription to a database or content aggregator service or to resources purchased as downloadable files (regardless of the method by which the library actually provides access to the content).</p>
+        <section id="section_qs5_1jp_r5b">
+            <title>Provider-Neutral Cataloging</title>
+            <p>When cataloging in a shared environment, follow the guidelines outlined under <xref href="provider_neutral_cataloging.dita"/>.</p>
+        </section>
+        <section id="section_dxw_q5p_r5b">
+            <title>RDA Elements</title>
+            <p><b>Manifestation: </b><b><i>carrier type</i></b></p>
+            <p>For remote-access electronic resources the appropriate value is always <b><term>online resource</term></b>.</p>
+            <p><b>Manifestation:</b><b><i> extent of manifestation</i></b></p>
+            <p>Record number of units in terms of the carrier recorded under Manifestation: <i>carrier type</i>.</p>
+            <p>Record number of subunits following the RDA instructions and  MLA Best Practices under Manifestation: <xref href="https://access.rdatoolkit.org/en-US_ala-8754c7a9-c38c-3735-9cf9-865df717f81b/p_dfc_zbz_xdb" format="html" scope="external" outputclass="rdatk"><u>extent of manifestation. Recording a structured description. Number of subunits. Online resources</u></xref>. Record the number of subunits in parentheses following the number of units.</p>
+        </section>
+    </body>
+</topic>

@@ -7002,6 +7002,10 @@ ${caret}</String>
                         </codeTemplateItem-array>
                     </entry>
                     <entry>
+                        <String>enable.project.master.files.support</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
                         <String>key.code.templates.option.pane</String>
                         <Boolean>true</Boolean>
                     </entry>
@@ -7030,6 +7034,66 @@ ${caret}</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>MLA_External_Documentation/Content/frontmatter_notices.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>RDA Metadata Guidance - PDF</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>MLA_External_Documentation/main.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>RDA Metadata Guidance - Web</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>MLA_External_Documentation/Content/Description/Elements/bib_expression_elements.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>RDA Metadata Guidance - PDF</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>MLA_External_Documentation/Content/Examples/marc_examples_by_element.dita</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -7051,26 +7115,6 @@ ${caret}</String>
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>MLA_External_Documentation/Content/Description/Elements/bib_element_overview_marc.dita</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>RDA Metadata Guidance - Web</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>MLA_External_Documentation/main.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -7355,26 +7399,6 @@ ${caret}</String>
                                 <field name="scenarioIds">
                                     <list>
                                         <String>RDA Metadata Guidance - Web</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>MLA_External_Documentation/Content/frontmatter_notices.dita</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>DITA PDF - based on HTML5 &amp; CSS - Copy</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -7820,6 +7844,9 @@ ${caret}</String>
                                 <field name="useAntennaHouse">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="useDITAScript">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="baseDir">
                                     <String>${cfd}</String>
                                 </field>
@@ -7858,9 +7885,6 @@ ${caret}</String>
                                     <null/>
                                 </field>
                                 <field name="lastCustomSkinCssPath">
-                                    <null/>
-                                </field>
-                                <field name="webhelpResponsiveTemplate">
                                     <null/>
                                 </field>
                                 <field name="publishingTemplateDataPO">
@@ -8172,6 +8196,9 @@ ${caret}</String>
                                 <field name="useAntennaHouse">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="useDITAScript">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="baseDir">
                                     <String>${cfd}</String>
                                 </field>
@@ -8219,9 +8246,6 @@ ${caret}</String>
                                     <null/>
                                 </field>
                                 <field name="lastCustomSkinCssPath">
-                                    <null/>
-                                </field>
-                                <field name="webhelpResponsiveTemplate">
                                     <null/>
                                 </field>
                                 <field name="publishingTemplateDataPO">
@@ -8522,6 +8546,9 @@ ${caret}</String>
                                 <field name="useAntennaHouse">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="useDITAScript">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="baseDir">
                                     <String>${cfd}</String>
                                 </field>
@@ -8569,9 +8596,6 @@ ${caret}</String>
                                     <null/>
                                 </field>
                                 <field name="lastCustomSkinCssPath">
-                                    <null/>
-                                </field>
-                                <field name="webhelpResponsiveTemplate">
                                     <null/>
                                 </field>
                                 <field name="publishingTemplateDataPO">
@@ -8849,6 +8873,9 @@ ${caret}</String>
                                 <field name="useAntennaHouse">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="useDITAScript">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="baseDir">
                                     <String>${cfd}</String>
                                 </field>
@@ -8896,9 +8923,6 @@ ${caret}</String>
                                     <null/>
                                 </field>
                                 <field name="lastCustomSkinCssPath">
-                                    <null/>
-                                </field>
-                                <field name="webhelpResponsiveTemplate">
                                     <null/>
                                 </field>
                                 <field name="publishingTemplateDataPO">
@@ -9385,6 +9409,9 @@ ${caret}</String>
                                 <field name="useAntennaHouse">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="useDITAScript">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="baseDir">
                                     <String>${cfd}</String>
                                 </field>
@@ -9423,9 +9450,6 @@ ${caret}</String>
                                     <null/>
                                 </field>
                                 <field name="lastCustomSkinCssPath">
-                                    <null/>
-                                </field>
-                                <field name="webhelpResponsiveTemplate">
                                     <null/>
                                 </field>
                                 <field name="publishingTemplateDataPO">
@@ -9674,5 +9698,6 @@ ${caret}</String>
     <projectTree name="MLA%20External%20Documentation.xpr">
         <folder path="."/>
         <folder path="MLA_External_Documentation/"/>
+        <folder path="MLA_External_Documentation/out/webhelp-responsive/oxygen-webhelp/"/>
     </projectTree>
 </project>

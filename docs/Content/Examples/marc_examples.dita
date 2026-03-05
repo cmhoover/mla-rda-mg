@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="marc_examples">
+    <title>MARC Examples</title>
+    <body>
+        <p>Indicator notation conventions:<dl id="dl_q54_bn5_4sb">
+            <dlentry>
+                <dt>#</dt>
+                <dd>Blank value; indicator position is undefined.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>_</dt>
+                <dd>Blank value; indicator position has a specific meaning assigned to blank values.</dd>
+            </dlentry>
+        </dl></p>
+    </body>
+</topic>

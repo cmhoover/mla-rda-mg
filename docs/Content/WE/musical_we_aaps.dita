@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="aap_work_expression">
+    <title>Access Points for Musical Works and Expressions</title>
+    <body>
+        <p/>
+        <section id="section_ryb_xb4_trb">
+            <title>Constructing an Authorized Access Point for a Musical Work</title>
+            <ol id="ol_cvv_yb4_trb">
+                <li>Determine the preferred title by applying the instructions at CR: <xref href="https://access.rdatoolkit.org/Resource/Index?externalId=en-US_ala-5476ebf7-f815-3d47-be2b-bf3c71bd1489" format="html" scope="external" outputclass="rdatk">preferred title of musical work: Anglo-American legacy instructions</xref>.</li>
+                <li>Determine the elements additional to the preferred title, if any, needed for the access point.<ol id="ol_sfn_rd4_trb">
+                        <li>If the musical work is an officially prescribed part of a liturgy, refer to CR: <xref href="https://access.rdatoolkit.org/Resource/Index?externalId=en-US_ala-8d20d787-34b7-30da-a5d0-b9c679453e93" format="html" scope="external" outputclass="rdatk">authorized access point for religious work: Anglo-American legacy instructions</xref>.</li>
+                        <li>Otherwise consult CR: <xref href="https://access.rdatoolkit.org/Resource/Index?externalId=en-US_ala-6b162749-88a5-3d79-a161-172b68601dd8" format="html" scope="external" outputclass="rdatk">authorized access point for musical work: Anglo-American legacy instructions</xref>.<ol id="ol_usk_5d4_trb">
+                                <li>Determine the agent (if any) to use as a qualifier for the access point.<ul id="ul_ovf_r24_trb">
+                                        <li>If the work falls under any of the specific categories listed under <xref href="https://access.rdatoolkit.org/en-US_ala-6b162749-88a5-3d79-a161-172b68601dd8/p_psw_4yy_wpb" format="html" scope="external" outputclass="rdatk">Base authorized access point for musical works. Specific options for specific kinds of musical works</xref>, apply those instructions.</li>
+                                        <li>If none of the above categories are appropriate, apply the general instructions at Work: <xref href="https://access.rdatoolkit.org/en-US_ala-086aad00-3bd2-3cc1-8dd0-52a5353b227b/p_yvd_v42_wfb" format="html" scope="external" outputclass="rdatk">authorized access point for work: Anglo-American legacy instructions. Additional elements and designations in authorized access points for work. Additional elements for creator of work</xref> (and subsections).</li>
+                                    </ul></li>
+                                <li>Determine any additions to the access point as instructed at CR: <xref href="https://access.rdatoolkit.org/en-US_ala-6b162749-88a5-3d79-a161-172b68601dd8/p_t2g_jgc_lfb" format="html" scope="external" outputclass="rdatk">authorized access point for musical work: Anglo-American legacy instructions. Additional elements and designations in authorized access points for musical works</xref>.</li>
+                            </ol></li>
+                    </ol></li>
+                <li>Combine the AAP for the agent (if any), the preferred title, and any additional elements following the string encoding scheme specified in the <xref href="https://access.rdatoolkit.org/PolicyStatement/Index?externalId=en-US_ala-1736a276-b4a2-3a2d-b028-b1ffad89f70b#division_rdaId_89031ea6-b806-4231-af25-512732ed4a8b" format="html" scope="external" outputclass="lcpcctk">LC-PCC policy statements for CR: authorized access point for musical work: Anglo-American legacy instructions</xref>.</li>
+            </ol>
+        </section>
+        <section id="section_kj4_j2f_vrb">
+            <title>Constructing an Authorized Access Point for an Expression of a Musical Work</title>
+            <p outputclass="largebold">For Western art music or other musical traditions where most users, for most purposes, are first and foremost concerned with access to <i>works</i> and <i>creators of works:</i></p><ol id="ol_mzp_q2f_vrb">
+                    <li>Determine the authorized access point for the work as described at <xref href="#aap_work_expression/section_ryb_xb4_trb" format="dita"/>. Use the work AAP as the basis for the expression AAP.</li>
+                    <li>Determine any necessary additions to the AAP.<ul id="ul_wgy_q5t_vrb">
+                            <li>If the expression may broadly be considered a <i>representative expression</i>—that is, if it possesses characteristics that, taken as a whole, may be considered to represent an original or canonical expression of a work—use the AAP for the work with no additions or alterations. See <xref href="../LRM/representative_expression_treatment.dita"/> for guidance on deciding if an expression qualifies.</li>
+                            <li>If the expression <b>does not</b> broadly constitute a representative expression, add to the base AAP one or more of the following, as appropriate, in the order prescribed in <xref href="https://access.rdatoolkit.org/PolicyStatement/Index?externalId=en-US_ala-7cddf5f4-21d2-3ec2-83ce-e29822d9341b#division_rdaId_102ba41e-6776-4c87-81fe-3e42c76c4eb6" format="html" scope="external" outputclass="lcpcctk">LC-PCC PS</xref>:<ul id="ul_o1l_t5t_vrb">
+                                <li>The term <xref href="https://access.rdatoolkit.org/en-US_ala-7bd21167-dc79-3e79-b5e1-46e7449778fb/div_nkj_vlf_5db" format="html" scope="external" outputclass="rdatk"><term>arranged</term></xref></li>
+                                <li>The term <xref href="https://access.rdatoolkit.org/en-US_ala-7bd21167-dc79-3e79-b5e1-46e7449778fb/div_ipg_qnf_5db" format="html" scope="external" outputclass="rdatk"><term>Sketches</term></xref></li>
+                                <li>The term <xref href="https://access.rdatoolkit.org/en-US_ala-7bd21167-dc79-3e79-b5e1-46e7449778fb/div_yvz_snf_5db" format="html" scope="external" outputclass="rdatk"><term>Vocal score </term>or <term>Vocal scores</term></xref></li>
+                                <li>The term <xref href="https://access.rdatoolkit.org/en-US_ala-7bd21167-dc79-3e79-b5e1-46e7449778fb/div_yvz_snf_5db" format="html" scope="external" outputclass="rdatk"><term>Chorus score </term>or <term>Chorus scores</term></xref></li>
+                                <li>A value of Expression: <xref href="https://access.rdatoolkit.org/en-US_ala-b7de61e2-fe4b-3cc3-a4a2-7a3c4c55b4fchttps://access.rdatoolkit.org/en-US_ala-b7de61e2-fe4b-3cc3-a4a2-7a3c4c55b4fc" format="html" scope="external" outputclass="rdatk">language of expression</xref> for the translation expressed</li>
+                                <li>Another appropriate element or designation as specified at Expression: <xref href="https://access.rdatoolkit.org/en-US_ala-0eb21eb3-a2b4-3f0c-b76f-7df760946aad" format="html" scope="external" outputclass="rdatk">access point for expression</xref> if none of the above adequately describe the resource</li>
+                            </ul></li>
+                        </ul></li>
+                    <li><b>Optionally:</b> If there is a desire to identify a unique expression specifically via an access point, add a value of Expression: <xref href="https://access.rdatoolkit.org/en-US_ala-7bd21167-dc79-3e79-b5e1-46e7449778fb" format="html" scope="external" outputclass="rdatk">designation of version</xref> using one or more of the following:<ul id="ul_ly5_yff_vrb">
+                            <li>A name of an arranger following the term <term>arranged</term>, <term>Vocal score</term>, <term>Chorus score</term>, etc.</li>
+                            <li>A name of a translator following the language of expression</li>
+                            <li> Another appropriate element or designation if the above are not applicable, not readily ascertainable, or not sufficient to distinguish the expression from another expression</li>
+                        </ul><note id="note_vmw_hgf_vrb">In deciding whether to make these optional additions, consider whether the utility of the "undifferentiated" access point as a collocation tool outweighs the benefit of added precision in identifying specific expressions or vice versa.</note></li>
+                </ol>
+            <p outputclass="largebold">For popular music or other musical traditions where most users, for most purposes, are first and foremost concerned with access to <i>expressions</i> and <i>creators of expressions</i>:</p>
+            <p>Guidance is pending, awaiting further discussion and availability of LC music section policy decisions.</p>
+        </section>
+        
+    </body>
+</topic>

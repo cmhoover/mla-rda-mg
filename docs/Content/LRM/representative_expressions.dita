@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="representative_expressions">
+    <title>Representative Expressions and Representative Expression Elements</title>
+    <conbody>
+        <p>A <xref href="https://access.rdatoolkit.org/en-US_ala-39db8725-25e2-3bcf-8a45-7ef37ec38c90" format="html" scope="external" outputclass="rdatk"><term>representative expression</term></xref> is an actual or hypothetical expression possessing characteristics that, while techincally belonging to the <xref href="https://access.rdatoolkit.org/en-US_ala-09a3282e-2746-3454-88ed-71935da637f9/ala-09a3282e-2746-3454-88ed-71935da637f9" format="html" scope="external" outputclass="rdatk">Expression entity</xref>, are perceived as being essential to the identification or characterization of a <term>work</term>. Representative expression elements are RDA elements belonging to the <xref
+                href="https://access.rdatoolkit.org/en-US_ala-c3e1fff8-0a79-35c6-bee1-39b6b4c9ed35/ala-c3e1fff8-0a79-35c6-bee1-39b6b4c9ed35" format="html" scope="external" outputclass="rdatk">Work entity</xref> that document the expression characteristics deemed to represent an "original" or "canonical" realization of a <term>work</term>.</p>
+        <p>The Library Reference Model<fn><ph conkeyref="bped_boilerplate/p_ikd_tym_vrb"/></fn>
+            introduced the concept of the <term>representative expression attribute</term>, from
+            which RDA's representative expression elements are derived.<lq id="lq_enr_bym_vrb"
+                    ><b>Definition:</b> An attribute which is deemed essential in characterizing the
+                    <term>work</term> and whose values are taken from a representative or canonical
+                    <term>expression</term> of the <term>work</term>.</lq><lq id="lq_hrs_mwm_vrb"
+                    ><b>Scope notes:</b> ...The values of these attributes are inferred either from
+                particular <term>expressions</term> considered to best represent the
+                    <term>work</term>, or from characteristics abstracted from a more or less
+                nebulous network of similar <term>expressions</term>. There is no requirement to
+                precisely identify an <term>expression</term> or <term>expressions</term> which
+                serves as source for the values of the <term>representative expression
+                    attributes</term>, nor does that <term>expression</term> need to be recorded in
+                the case where it is identified.</lq></p>
+        <p>For much of Western art music, which tends to focus attention on the work and its creator(s), the notion of declaring any particular expression a <term>representative expression</term> is fraught. In this context, representative expressions are best thought of, and less problematic, if viewed through the "nebulous network of similar expressions" model; any expression may be considered representative so long as it shares essential characteristics (representative expression elements) common to many "original or canonical realization[s] of a work," as RDA puts it. RDA does not require that a representative expression exist to be treated as representative; in other words, it may represent a hypothetical ideal.</p>
+        <p>However, much modern popular music evolved and spread in tandem with recording
+            technology, to the extent that specific recorded performances (usually the first issued)
+            are often considered "definitive" in ways that recordings of art music generally are
+            not. It is much easier to consider a particular performance of a popular song or a
+            particular aggregation of performances in an album to be "an original or canonical
+            realization of a work."</p>
+        <p>For music that does not fit cleanly into or clearly parallel either category, cataloger's judgment is required. In general, consider how definitive a given expression could or would be in the context of that particular musical tradition and whether users are more likely to approach the <term>find</term> and <term>identify</term> LRM user tasks at the work or expression level.</p>
+    </conbody>
+</concept>

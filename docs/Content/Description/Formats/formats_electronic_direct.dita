@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="formats_electronic_direct">
+    <title>Additional Guidelines for Direct-Access Electronic Resources</title>
+    <body>
+        <p>These instructions apply to electronic resources that are formally distributed (for published resources) or archived (for unpublished resources) on physical media. For resources that are available through a subscription to a database or content aggregator service or are purchased as downloadable files (regardless of the method by which the library actually provides access to the content), see <xref href="formats_electronic_remote.dita"/>.</p>
+        <note id="note_u4l_krp_r5b"><b>Exception: </b>Generally treat optical discs that exclusively contain audio files as audio discs. For encoding guidance, see <xref href="https://cmc.wp.musiclibraryassoc.org/mla-best-practices/" format="html" scope="external"><u>Supplement 1 to the MLA Best Practices</u></xref> under MP3 CD and CD-R.</note>
+        <section id="section_xrg_jtw_r5b">
+            <title>RDA Elements</title>
+            <p outputclass="sectionsubhead"><b>Manifestation: </b><b><i>carrier type</i></b></p>
+            <p>Select a controlled vocabulary term appropriate to the physical carrier as specified at Manifestation: <xref href="https://access.rdatoolkit.org/en-US_ala-0dd63c0d-066f-3ddc-885a-ff83c25cf752/264e4ac7-d057-47d7-9a36-e8f18e6225aa" format="html" scope="external"><u>carrier type. Recording a structured description</u></xref>.</p>
+            <p outputclass="sectionsubhead"><b>Manifestation: </b><b><i>extent of manifestation</i></b></p>
+            <p>Record number of units in terms of the carrier recorded under Manifestation: <i>carrier type</i>.</p>
+            <p>Record number of subunits following the RDA instructions and MLA Best Practices under Manifestation: <xref href="https://access.rdatoolkit.org/en-US_ala-8754c7a9-c38c-3735-9cf9-865df717f81b/div_o34_ykv_z2b" format="html" scope="external" outputclass="rdatk"><u>extent of manifestation. Recording a structured description. Number of subunits. Computer discs, cartridges, etc</u></xref>. Record the number of subunits in parentheses following the number of units.</p>
+        </section>
+        
+    </body>
+</topic>

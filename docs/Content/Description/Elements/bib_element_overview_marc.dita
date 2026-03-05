@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="element_overview_marc_bibliographic">
+    <title>Element Overview: MARC Bibliographic</title>
+    <shortdesc/>
+    <body>
+        <p>Elements in bold are designated "Core" in LC-PCC PS or "routinely record" in the MLA Best Practices.</p>
+        <section id="section_nrq_f3d_5rb">
+            <title>Identifiers (MARC: 02x)</title>
+            <ul id="ul_tc4_gjd_5rb">
+                <li><b>Manifestation: identifier for manifestation</b><ul id="ul_jhz_mrd_5rb">
+                        <li><b>Manifestation: publisher number for notated music</b></li>
+                        <li><b>Manifestation: plate number for notated music</b></li>
+                    </ul></li>
+                <li>Manifestation: identifier for expression</li>
+                <li outputclass="core"><b>Work: ISSN</b></li>
+            </ul>
+            <table frame="all" rowsep="0" colsep="0" id="table_i4t_nrd_5rb">
+                <title>Identifier Summary</title>
+                <tgroup cols="4" align="left">
+                    <colspec colname="newCol1" colnum="1" colwidth="0.5*" rowsep="1" align="left"/>
+                    <colspec colname="c1" colnum="2" colwidth="6*" rowsep="1" align="left"/>
+                    <colspec colname="c2" colnum="3" colwidth="1*" rowsep="1" align="left"/>
+                    <colspec colname="c3" colnum="4" colwidth="1.5*" rowsep="1" align="left"/>
+                    <thead>
+                        <row>
+                            <entry namest="newCol1" nameend="c1">Identifier Type<fn>Identifier types specified in the MARC format but not in RDA given in parentheses.</fn></entry>
+                            <entry>Field</entry>
+                            <entry>Indicator 1</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry namest="newCol1" nameend="c1">identifier for manifestation</entry>
+                            <entry>—</entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>(ISBN)</entry>
+                            <entry>020</entry>
+                            <entry>#</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>(ISMN)<note id="note_j4t_nrd_5rb">May be used for 10-character (beginning with M) and 13-character (beginning with 979-0) ISMNs.</note></entry>
+                            <entry>024</entry>
+                            <entry>2</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>(UPC)</entry>
+                            <entry>024</entry>
+                            <entry>1</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>(International Article Number (EAN))<note id="note_k4t_nrd_5rb">Formerly European Article Number. EANs, JANs (Japanese Article Numbers), and 13-digit ISMNs all conform to the GTIN-13 standard and may be recorded in 024 3x. </note></entry>
+                            <entry>024</entry>
+                            <entry>3</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>(Issue number (publisher number) for sound recordings)</entry>
+                            <entry>028</entry>
+                            <entry>0</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>(Matrix number for sound recordings)</entry>
+                            <entry>028</entry>
+                            <entry>1</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>(Video recording publisher number)</entry>
+                            <entry>028</entry>
+                            <entry>4</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>(Distributor number)</entry>
+                            <entry>028</entry>
+                            <entry>6</entry>
+                        </row>
+                        <row>
+                            <entry namest="newCol1" nameend="c1">plate number for notated music</entry>
+                            <entry>028</entry>
+                            <entry>2</entry>
+                        </row>
+                        <row>
+                            <entry namest="newCol1" nameend="c1">publisher number for notated music</entry>
+                            <entry>028</entry>
+                            <entry>3</entry>
+                        </row>
+                        <row>
+                            <entry namest="newCol1" nameend="c1">identifier for expression</entry>
+                            <entry>—</entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>(International Standard Recording Code (ISRC))<note id="note_r2c_2nd_5rb">ISRCs, when present, are assigned per each individual track, not per album.</note></entry>
+                            <entry>024</entry>
+                            <entry>0</entry>
+                        </row>
+                        <row>
+                            <entry namest="newCol1" nameend="c1">ISSN</entry>
+                            <entry>022</entry>
+                            <entry>#</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section id="section_ttw_ky3_5rb">
+            <title>Principal agent or MARC uniform title (MARC: 1xx)</title>
+            <ul id="ul_hyd_sy3_5rb">
+                <li outputclass="core"><b>Work: creator agent of work (or narrower element)</b></li>
+                <li>Work: authorized access point for work (mixed or no responsibility)</li>
+                <li>Expression: authorized access point for expression (mixed or no responsibility)</li>
+            </ul>
+            <note conkeyref="bped_boilerplate/note_nmt_zfk_nsb" id="note_awb_t5k_nsb"/>
+            <table frame="all" rowsep="1" colsep="0" id="table_exx_2fn_vrb">
+                <title>Principal Agent Summary</title>
+                <tgroup cols="3" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="5*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="3*"/>
+                    <thead>
+                        <row>
+                            <entry>Element</entry>
+                            <entry>Field</entry>
+                            <entry>Subfield(s)</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry morerows="1">creator agent of work</entry>
+                            <entry>100</entry>
+                            <entry>$a $b $c $d $q</entry>
+                        </row>
+                        <row>
+                            <entry>110</entry>
+                            <entry>$a $b</entry>
+                        </row>
+                        <row>
+                            <entry>authorized access point for work/expression</entry>
+                            <entry>130</entry>
+                            <entry>$a $p $k</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section id="section_xv3_ty3_5rb">
+            <title>Title information and associated statements of responsibility (MARC: 245)</title>
+            <ul id="ul_at5_vy3_5rb">
+                <li>Manifestation: title of manifestation<note
+                        conkeyref="bped_boilerplate/note_b2z_jfd_5rb" id="note_vmx_mz3_5rb"/><ul
+                        id="ul_uzh_wy3_5rb">
+                        <li><b>Manifestation: title proper</b><ul id="ul_qvz_gzh_wrb">
+                                <li><b>Manifestation: parallel title proper</b></li>
+                            </ul></li>
+                        <li>Manifestation: variant title of manifestation</li>
+                    </ul></li>
+                <li><b>Manifestation: other title information</b><ul id="ul_fjd_zy3_5rb">
+                        <li>Manifestation: parallel other title information</li>
+                    </ul></li>
+                <li>Manifestation: statement of responsibility<note
+                        conkeyref="bped_boilerplate/note_b2z_jfd_5rb" id="note_ifj_nz3_5rb"/><ul
+                        id="ul_nkz_1z3_5rb">
+                        <li><b>Manifestation: statement of responsibility relating to title
+                                proper</b></li>
+                        <li><b>Manifestation: parallel statement of responsibility relating to title
+                                proper</b></li>
+                    </ul></li>
+            </ul>
+            <table frame="all" rowsep="0" colsep="0" id="table_at4_m2j_5rb">
+                <title>Title and Statement of Responsibility Summary</title>
+                <tgroup cols="3" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="11*" rowsep="1" colsep="0"/>
+                    <colspec colname="newCol2" colnum="2" colwidth="4*" rowsep="1" colsep="0"/>
+                    <colspec colname="c2" colnum="3" colwidth="5*" rowsep="1"/>
+                    <thead>
+                        <row>
+                            <entry>Element</entry>
+                            <entry>Field</entry>
+                            <entry>Subfield(s)</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry morerows="1">title proper</entry>
+                            <entry>245</entry>
+                            <entry>
+                                <p>$a $n $p</p>
+                                <p>*$c (see note)</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>*740 (see note)</entry>
+                            <entry>$a $n $p</entry>
+                        </row>
+                        <row>
+                            <entry>parallel title proper</entry>
+                            <entry>245</entry>
+                            <entry>$b</entry>
+                        </row>
+                        <row>
+                            <entry>other title information</entry>
+                            <entry>245</entry>
+                            <entry>$b</entry>
+                        </row>
+                        <row>
+                            <entry>parallel other title information</entry>
+                            <entry>245</entry>
+                            <entry>$b</entry>
+                        </row>
+                        <row>
+                            <entry>statement of responsibility relating to title proper</entry>
+                            <entry>245</entry>
+                            <entry>$c</entry>
+                        </row>
+                        <row>
+                            <entry>parallel statement of responsibility relating to title proper</entry>
+                            <entry>245</entry>
+                            <entry>$c</entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">variant title of manifestation</entry>
+                            <entry>246</entry>
+                            <entry>$a $b $n $p</entry>
+                        </row>
+                        <row>
+                            <entry>*740 (see note)</entry>
+                            <entry>$a $n $p</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <note id="note_z5r_v2j_5rb">In certain cases involving compilations lacking a collective title, titles proper subsequent to the first must be recorded in $c because no further subfielding is permitted once $c has been recorded. In such cases, also record titles proper subsequent to the first (and any desired variants) in separate instances of field 740, second indicator value 2, to insure proper indexing.</note>
+            <p>For detailed guidance and examples of complex parallel data, consult <ph
+                    conkeyref="b_bp_mla/p_r2t_4hh_r4b"/>
+                <ph conkeyref="b_bp_mla/ph_svd_ytt_t4b"/>.</p>
+            <p>Record variant titles in field 246 using indicator values 13, 1_ with an explanatory note in $i, or other values according to local practice, as appropriate.</p>
+        </section>
+        <section id="section_rkh_5gj_5rb">
+            <title>Edition (MARC: 250)</title>
+
+        <ul id="ul_qhw_knj_5rb">
+            <li><b>Manifestation: edition statement</b><note
+                        conkeyref="bped_boilerplate/note_jlg_z2d_5rb" id="note_sh2_ygn_vrb"/><ul
+                        id="ul_twq_lnj_5rb">
+                        <li><b>Manifestation: designation of edition</b><ul id="ul_lvj_xgn_vrb">
+                                <li>Manifestation: parallel designation of edition</li>
+                            </ul></li>
+                        <li><b>Manifestation: designation of named revision of edition</b><ul
+                                id="ul_fyw_wgn_vrb">
+                                <li>Manifestation: parallel designation of named revision of
+                                    edition</li>
+                            </ul></li>
+                        <li><b>Manifestation: statement of responsibility relating to edition</b><ul
+                                id="ul_xs3_wgn_vrb">
+                                <li>Manifestation: parallel statement of responsibility relating to
+                                    edition</li>
+                            </ul></li>
+                        <li>Manifestation: statement of responsibility relating to named revision of
+                                edition<ul id="ul_lfk_vgn_vrb">
+                                <li>Manifestation: parallel statement of responsibility relating to
+                                    named revision of edition</li>
+                            </ul></li>
+                    </ul></li>
+        </ul>
+        <table frame="all" rowsep="1" colsep="0" id="table_tpj_tgx_psb">
+            <title>Edition Statement Summary</title>
+            <tgroup cols="4" align="left">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="newCol2" colnum="2" colwidth="7*"/>
+                <colspec colname="c2" colnum="3" colwidth="2*"/>
+                <colspec colname="c3" colnum="4" colwidth="9*"/>
+                <thead>
+                    <row>
+                        <entry namest="c1" nameend="newCol2">Element</entry>
+                        <entry>Subfield</entry>
+                        <entry>Notes</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry namest="c1" nameend="newCol2">designation of edition</entry>
+                        <entry>$a</entry>
+                        <entry>Record separate designations of editions in separate instances of field 250.</entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="newCol2">parallel designation of edition</entry>
+                        <entry>$b</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="newCol2">designation of named revision of edition</entry>
+                        <entry>$a or $b</entry>
+                        <entry>If separate from a designation of edition, record in $a of a separate field 250. If grammatically linked to the designation of edition, record in $a following the designation of edition, separated by a comma. If subordinate to but not grammatically linked to a designation of edition or designation of named revision of edition, record in $b.</entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="newCol2">parallel designation of named revision of edition</entry>
+                        <entry>$b</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="newCol2">statement of responsibility relating to edition</entry>
+                        <entry>$b</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="newCol2">parallel statement of responsibility relating to edition</entry>
+                        <entry>$b</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="newCol2">statement of responsibility relating to named revision of edition</entry>
+                        <entry>$b</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="newCol2">parallel statement of responsibility relating to named revision of edition</entry>
+                        <entry>$b</entry>
+                        <entry/>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        </section>
+        <section id="section_anw_5gj_5rb">
+            <title>Physical description (MARC: 300)</title>
+            <ul id="ul_cfd_s5j_5rb">
+                <li><b>Manifestation: extent of manifestation</b></li>
+                <li><b>Manifestation: dimensions</b></li>
+            </ul>
+            <table frame="all" rowsep="1" colsep="0" id="table_hfg_p13_wrb">
+                <title>Physical Description Summary</title>
+                <tgroup cols="3" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="3*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>Element</entry>
+                            <entry>Field</entry>
+                            <entry>Subfield</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>extent of manifestation</entry>
+                            <entry>300</entry>
+                            <entry>$a</entry>
+                        </row>
+                        <row>
+                            <entry morerows="3">dimensions</entry>
+                            <entry>300</entry>
+                            <entry>$c</entry>
+                        </row>
+                        <row>
+                            <entry>340</entry>
+                            <entry>$b</entry>
+                        </row>
+                        <row>
+                            <entry>007/05 (audio)</entry>
+                            <entry>($g)</entry>
+                        </row>
+                        <row>
+                            <entry>007/06 (audio tape)</entry>
+                            <entry>($h)</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section id="section_acc_jhj_5rb">
+            <title>Other manifestation and expression characteristics (MARC: 3xx)</title>
+            <ul id="ul_gjn_qfn_vrb">
+                <li>Manifestation: applied material</li>
+                <li>Manifestation: base material</li>
+                <li><b>Manifestation: carrier type</b></li>
+                <li>Manifestation: digital file characteristic<note
+                        conkeyref="bped_boilerplate/note_b2z_jfd_5rb" id="note_vld_lgn_vrb"/><ul
+                        id="ul_nql_ggn_vrb">
+                        <li>Manifestation: encoding format</li>
+                        <li><b>Manifestation: file type</b></li>
+                        <li>Manifestation: regional encoding</li>
+                    </ul></li>
+                <li>Manifestation: generation</li>
+                <li>Manifestation: illustrative content</li>
+                <li><b>Manifestation: media type</b></li>
+                <li>Manifestation: production method</li>
+                <li>Manifestation: sound characteristic<p>
+                        <note conkeyref="bped_boilerplate/note_b2z_jfd_5rb" id="note_kfc_dgn_vrb"/>
+                    </p><ul id="ul_udz_yfn_vrb">
+                        <li><b>Manifestation: configuration of playback channels</b></li>
+                        <li>Manifestation: groove characteristic<ul id="ul_v5v_zfn_vrb">
+                                <li>Manifestation: groove pitch</li>
+                                <li>Manifestation: groove width</li>
+                            </ul></li>
+                        <li><b>Manifestation: playing speed</b></li>
+                        <li>Manifestation: recording medium</li>
+                        <li><b>Manifestation: special playback characteristic</b></li>
+                        <li><b>Manifestation: track configuration</b></li>
+                        <li><b>Manifestation: tape configuration</b></li>
+                        <li><b>Manifestation: type of recording</b></li>
+                    </ul></li>
+                <li><b>Expression: content type</b></li>
+                <li>Expression: duration</li>
+                <li><b>Expression: form of musical notation</b></li>
+                <li><b>Expression: format of notated music</b></li>
+            </ul>
+            <table frame="all" rowsep="1" colsep="0" id="table_tvw_bwh_wrb">
+                <title>Other Manifestation and Expression Characteristics Summary</title>
+                <tgroup cols="4" align="left">
+                    <colspec colname="newCol1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c1" colnum="2" colwidth="5*"/>
+                    <colspec colname="c2" colnum="3" colwidth="3*"/>
+                    <colspec colname="c3" colnum="4" colwidth="2*"/>
+                    <thead>
+                        <row>
+                            <entry namest="newCol1" nameend="c1">Element</entry>
+                            <entry>Field(s)</entry>
+                            <entry>Subfield(s)<fn>OCLC-specific mnemonic subfields given in parentheses.</fn></entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry namest="newCol1" nameend="c1" morerows="1">applied material</entry>
+                            <entry>340</entry>
+                            <entry>$c</entry>
+                        </row>
+                        <row>
+                            <entry>007/10* (audio; see note)</entry>
+                            <entry>($k)</entry>
+                        </row>
+                        <row>
+                            <entry namest="newCol1" nameend="c1" morerows="1">base material</entry>
+                            <entry>340</entry>
+                            <entry>$a</entry>
+                        </row>
+                        <row>
+                            <entry>007/10* (audio; see note)</entry>
+                            <entry>($k)</entry>
+                        </row>
+                        <row>
+                            <entry namest="newCol1" nameend="c1">carrier type</entry>
+                            <entry>338</entry>
+                            <entry>$a</entry>
+                        </row>
+                        <row>
+                            <entry namest="newCol1" nameend="c1">content type</entry>
+                            <entry>336</entry>
+                            <entry>$a</entry>
+                        </row>
+                        <row>
+                            <entry namest="newCol1" nameend="c1">digital file characteristic</entry>
+                            <entry>—</entry>
+                            <entry>—</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>encoding format</entry>
+                            <entry>347</entry>
+                            <entry>$b</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>file type</entry>
+                            <entry>347</entry>
+                            <entry>$a</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>regional encoding</entry>
+                            <entry>347</entry>
+                            <entry>$e</entry>
+                        </row>
+                        <row>
+                            <entry namest="newCol1" nameend="c1">generation</entry>
+                            <entry>340</entry>
+                            <entry>$j</entry>
+                        </row>
+                        <row>
+                            <entry namest="newCol1" nameend="c1">illustrative content</entry>
+                            <entry>340</entry>
+                            <entry>$p</entry>
+                        </row>
+                        <row>
+                            <entry namest="newCol1" nameend="c1">media type</entry>
+                            <entry>337</entry>
+                            <entry>$a</entry>
+                        </row>
+                        <row>
+                            <entry namest="newCol1" nameend="c1">production method</entry>
+                            <entry>340</entry>
+                            <entry>$d</entry>
+                        </row>
+                        <row>
+                            <entry namest="newCol1" nameend="c1">sound characteristic</entry>
+                            <entry>—</entry>
+                            <entry>—</entry>
+                        </row>
+                        <row>
+                            <entry morerows="2"/>
+                            <entry morerows="2">configuration of playback channels</entry>
+                            <entry>344</entry>
+                            <entry>$g</entry>
+                        </row>
+                        <row>
+                            <entry>007/04 (audio)</entry>
+                            <entry>($e)</entry>
+                        </row>
+                        <row>
+                            <entry>007/08 (video)</entry>
+                            <entry>($i)</entry>
+                        </row>
+                        <row>
+                            <entry morerows="1"/>
+                            <entry morerows="1">groove pitch; groove width</entry>
+                            <entry>344</entry>
+                            <entry>$d</entry>
+                        </row>
+                        <row>
+                            <entry>007/05</entry>
+                            <entry>($f)</entry>
+                        </row>
+                        <row>
+                            <entry morerows="2"/>
+                            <entry morerows="2">playing speed</entry>
+                            <entry>007/03</entry>
+                            <entry>($d)</entry>
+                        </row>
+                        <row>
+                            <entry>344</entry>
+                            <entry>$c</entry>
+                        </row>
+                        <row>
+                            <entry>300</entry>
+                            <entry>$b</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>recording medium</entry>
+                            <entry>344</entry>
+                            <entry>$b</entry>
+                        </row>
+                        <row>
+                            <entry morerows="1"/>
+                            <entry morerows="1">special playback characteristic</entry>
+                            <entry>344</entry>
+                            <entry>$h</entry>
+                        </row>
+                        <row>
+                            <entry>007/12</entry>
+                            <entry>($m)</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>track configuration</entry>
+                            <entry>344</entry>
+                            <entry>$e</entry>
+                        </row>
+                        <row>
+                            <entry morerows="1"/>
+                            <entry morerows="1">tape configuration</entry>
+                            <entry>344</entry>
+                            <entry>$f</entry>
+                        </row>
+                        <row>
+                            <entry>007/08</entry>
+                            <entry>($i)</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>type of recording</entry>
+                            <entry>344</entry>
+                            <entry>$a</entry>
+                        </row>
+                        <row>
+                            <entry namest="newCol1" nameend="c1" morerows="4">duration</entry>
+                            <entry>008/18-20 (video)</entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry>300 (audio/video)</entry>
+                            <entry>$a</entry>
+                        </row>
+                        <row>
+                            <entry>306</entry>
+                            <entry>$a</entry>
+                        </row>
+                        <row>
+                            <entry>500</entry>
+                            <entry>$a</entry>
+                        </row>
+                        <row>
+                            <entry>505</entry>
+                            <entry>$a or $g</entry>
+                        </row>
+                        <row>
+                            <entry namest="newCol1" nameend="c1" morerows="1">form of musical notation</entry>
+                            <entry>348</entry>
+                            <entry>$c</entry>
+                        </row>
+                        <row>
+                            <entry>546</entry>
+                            <entry>$b</entry>
+                        </row>
+                        <row>
+                            <entry namest="newCol1" nameend="c1" morerows="1">format of notated music</entry>
+                            <entry>348</entry>
+                            <entry>$a</entry>
+                        </row>
+                        <row>
+                            <entry>008/20-21</entry>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <note id="note_z4d_lyk_gyb">For sound recordings, 007 byte 10 (kind of material) defines codes for applied material, base material, and applied and base materials together. Not all audio carriers have a valid combination of materials defined. See <ph conkeyref="b_bp_mla/p_r2t_4hh_r4b"/>, <ph conkeyref="b_bp_mla/ph_grz_xtt_t4b"/>.</note>
+        </section>
+        <section id="section_u2h_xgj_5rb">
+            <title>Series statement (MARC: 490) and tracing (MARC: 8xx)</title>
+            <ul id="ul_q3n_pjj_5rb">
+                <li><b>Manifestation: series statement</b><note
+                        conkeyref="bped_boilerplate/note_jlg_z2d_5rb" id="note_iqc_rjj_5rb"/><ul
+                        id="ul_d5m_qjj_5rb">
+                        <li><b>Manifestation: title of series</b><ul id="ul_qtn_y4j_5rb">
+                                <li><b>Manifestation: parallel title of series</b></li>
+                            </ul></li>
+                        <li>Manifestation: other title information of series<ul id="ul_bfc_1pj_5rb">
+                                <li>Manifestation: parallel other title information of series</li>
+                            </ul></li>
+                        <li>Manifestation: statement of responsibility relating to series<note
+                                id="note_wfn_gkj_5rb">Routinely record the element if the series
+                                represents the complete or selected works of a single
+                                composer.</note><ul id="ul_n53_bpj_5rb">
+                                <li>Manifestation: parallel statement of responsibility relating to
+                                    series</li>
+                            </ul></li>
+                        <li><b>Manifestation: numbering within sequence</b></li>
+                    </ul></li>
+                <li>Work: subseries</li>
+                <li>Work: authorized access point for work</li>
+                <li>Work: ISSN</li>
+            </ul>
+            <p>For series access points, see <xref href="#element_overview_marc_bibliographic/section_iwx_hhj_5rb" format="dita"/>.</p>
+        </section>
+        <table frame="all" rowsep="1" colsep="0" id="table_oh4_tqj_5rb">
+            <title>Series Statement Summary</title>
+            <tgroup cols="4" align="left">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="newCol2" colnum="2" colwidth="7*"/>
+                <colspec colname="c2" colnum="3" colwidth="2*"/>
+                <colspec colname="c3" colnum="4" colwidth="9*"/>
+                <thead>
+                    <row>
+                        <entry namest="c1" nameend="newCol2">Element</entry>
+                        <entry>Subfield</entry>
+                        <entry>Position</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry namest="c1" nameend="newCol2">title of series</entry>
+                        <entry>$a</entry>
+                        <entry>First $a</entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="newCol2">parallel title of series</entry>
+                        <entry>$a</entry>
+                        <entry>Following the title of series (separate $a)</entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="newCol2">other title information of series</entry>
+                        <entry>$a</entry>
+                        <entry>Following the title of series (same $a)</entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="newCol2">parallel other title information of series</entry>
+                        <entry>$a</entry>
+                        <entry>Following the title or parallel title of series it pertains to (same $a)</entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="newCol2">statement of responsibility relating to series</entry>
+                        <entry>$a</entry>
+                        <entry>Following the title, other title information, and/or subseries it pertains to (same $a)</entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="newCol2">parallel statement of responsibility relating to series</entry>
+                        <entry>$a</entry>
+                        <entry>Following the parallel title, parallel other title, and/or subseries it pertains to (same $a)</entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="newCol2">numbering within sequence</entry>
+                        <entry>$v</entry>
+                        <entry>Following all $a $x $y $z for series or subseries</entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="newCol2">subseries</entry>
+                        <entry>$a</entry>
+                        <entry>
+                            <p><b>If series is numbered or if ISSN is recorded:</b> following all $a $v $x $y $z for the parent series</p>
+                            <p><b>If series is unnumbered and no ISSN is recorded:</b> following title or parallel title of series (same $a)</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="newCol2">ISSN</entry>
+                        <entry>$x</entry>
+                        <entry>Following all $a and preceding $v for series or subseries</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry>(invalid ISSNs)</entry>
+                        <entry>$y</entry>
+                        <entry>Following all $a and preceding $v for series or subseries</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry>(canceled ISSNs)</entry>
+                        <entry>$z</entry>
+                        <entry>Following all $a and preceding $v for series or subseries</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <p>If a manifestation belongs to two or more series (that are not parent series and subseries), record each series in a separate instance of field 490.</p>
+        <table frame="all" rowsep="1" colsep="0" id="table_nht_glz_nsb">
+            <title>Series Tracing Summary</title>
+            <tgroup cols="4" align="left">
+                <colspec colname="c1" colnum="1" colwidth="4*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="2.5*"/>
+                <colspec colname="newCol4" colnum="4" colwidth="7*"/>
+                <thead>
+                    <row>
+                        <entry>Element</entry>
+                        <entry>Tag</entry>
+                        <entry>Subfield(s)</entry>
+                        <entry>Scope</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry morerows="1">
+                            <p>authorized access point for work</p>
+                        </entry>
+                        <entry>800</entry>
+                        <entry>$a $b $c $d $q $t $k $l $m $n $o $r $s</entry>
+                        <entry>Access point for a work manifested as a series collecting works by a single creator</entry>
+                    </row>
+                    <row>
+                        <entry>830</entry>
+                        <entry>$a $b $t $k $f $l $m $n $o $r $s</entry>
+                        <entry>Access point for a work manifested as a series collecting works that do not have a single creator</entry>
+                    </row>
+                    <row>
+                        <entry>numbering within sequence</entry>
+                        <entry>8xx</entry>
+                        <entry>$v</entry>
+                        <entry>Volume enumeration, if traced</entry>
+                    </row>
+                    <row>
+                        <entry>subseries</entry>
+                        <entry>8xx</entry>
+                        <entry>$p</entry>
+                        <entry>Subseries, if traced and entered subordinately to the main series rather than under its own title</entry>
+                    </row>
+                    <row>
+                        <entry>ISSN</entry>
+                        <entry>8xx</entry>
+                        <entry>$x</entry>
+                        <entry>Valid ISSNs only</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <section id="section_ebk_ygj_5rb">
+            <title>Notes and other descriptive content (MARC: 5xx)</title>
+        </section>
+        <ul id="ul_myq_k5j_5rb">
+            <li>Manifestation: note on manifestation<ul id="ul_hsc_l5j_5rb">
+                    <li><b>Manifestation: note on title</b></li>
+                    <li><b>Manifestation: note on statement of responsibility</b></li>
+                </ul><note id="note_qdx_l1k_5rb">All narrower elements of Manifestation: note on manifestation have been soft-deprecated by the RDA Steering Committee. Although there are no immediate plans to remove those elements, in the future instructions specific to those narrower elements may be subsumed into Manifestation: note on manifestation or migrated to policy statements.</note></li>
+            <li>Manifestation: equipment or system requirement</li>
+            <li><b>Manifestation: expression manifested</b></li>
+            <li>Manifestation: manifestation described in</li>
+            <li>Expression: capture information<ul id="ul_jtj_qlk_5rb">
+                    <li>Expression: note on capture</li>
+                </ul></li>
+            <li><b>Expression: date of capture</b></li>
+            <li>Expression: expression described in</li>
+            <li>Expression: form of notation<ul id="ul_m5c_c3k_5rb">
+                    <li>Expression: script</li>
+                </ul><note id="note_ntx_bkk_5rb">LC-PCC core for certain language/script combinations. For form of musical notation, see <xref href="#element_overview_marc_bibliographic/section_acc_jhj_5rb" format="dita"/>.</note></li>
+            <li>Expression: intended audience of expression<note id="note_sly_yck_5rb">LC-PCC core for juvenile resources.</note></li>
+            <li>Expression: language of expression</li>
+            <li><b>Expression: place of capture</b></li>
+            <li><b>Work: dissertation or thesis information</b><note
+                    conkeyref="bped_boilerplate/note_jlg_z2d_5rb" id="note_wdb_mlk_5rb"/><ul
+                    id="ul_fx5_w3k_5rb">
+                    <li><b>Work: academic degree</b></li>
+                    <li><b>Work: degree granting institution</b></li>
+                    <li><b>Work: year degree granted</b></li>
+                </ul></li>
+            <li>Work: work described in</li>
+        </ul>
+        <table frame="all" rowsep="1" colsep="0" id="table_tmw_v1k_5rb">
+            <title>Notes Summary</title>
+            <tgroup cols="4" align="left">
+                <colspec colname="c1" colnum="1" colwidth="4*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="2.5*"/>
+                <colspec colname="newCol4" colnum="4" colwidth="7*"/>
+                <thead>
+                    <row>
+                        <entry>Element</entry>
+                        <entry>Tag</entry>
+                        <entry>Subfield(s)</entry>
+                        <entry>Scope</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry morerows="2">note on manifestation</entry>
+                        <entry>500</entry>
+                        <entry>$a</entry>
+                        <entry>Notes for which no more specific field is appropriate</entry>
+                    </row>
+                    <row>
+                        <entry>504</entry>
+                        <entry>$a $b</entry>
+                        <entry>Notes on bibliographies, discographies, or other included bibliographic references</entry>
+                    </row>
+                    <row>
+                        <entry>520</entry>
+                        <entry>$a $b $c</entry>
+                        <entry>Summaries, abstracts, etc.</entry>
+                    </row>
+                    <row>
+                        <entry>note on title</entry>
+                        <entry>500</entry>
+                        <entry>$a</entry>
+                        <entry>Source of title, if required by LC-PCC PS</entry>
+                    </row>
+                    <row>
+                        <entry morerows="1">note on capture</entry>
+                        <entry>500</entry>
+                        <entry>$a</entry>
+                        <entry>If 518 $d, $o, and/or $p are used</entry>
+                    </row>
+                    <row>
+                        <entry>518</entry>
+                        <entry>$a</entry>
+                        <entry>If 518 $d, $o, and/or $p are not used</entry>
+                    </row>
+                    <row>
+                        <entry>dissertation or thesis information</entry>
+                        <entry>502</entry>
+                        <entry>$a</entry>
+                        <entry>Full text of a thesis or dissertation statement. <ph
+                                conkeyref="bped_boilerplate/ph_mrk_hmk_5rb"/></entry>
+                    </row>
+                    <row>
+                        <entry>academic degree</entry>
+                        <entry>502</entry>
+                        <entry>$b</entry>
+                        <entry>Degree type</entry>
+                    </row>
+                    <row>
+                        <entry>degree granting institution</entry>
+                        <entry>502</entry>
+                        <entry>$c</entry>
+                        <entry>Name of granting institution</entry>
+                    </row>
+                    <row>
+                        <entry>year degree granted</entry>
+                        <entry>502</entry>
+                        <entry>$d </entry>
+                        <entry>Year of degree</entry>
+                    </row>
+                    <row>
+                        <entry>expression manifested</entry>
+                        <entry>505</entry>
+                        <entry>$a or $t</entry>
+                        <entry>Contents notes for collection aggregates or manifestations of works with named parts</entry>
+                    </row>
+                    <row>
+                        <entry morerows="1">note on statement of responsibility</entry>
+                        <entry>508</entry>
+                        <entry>$a</entry>
+                        <entry>Artistic or technical creation/production credits, including agents not named in a statement of responsibility</entry>
+                    </row>
+                    <row>
+                        <entry>511</entry>
+                        <entry>$a</entry>
+                        <entry>Performer or participant credits, including agents not named in a statement of responsibility</entry>
+                    </row>
+                    <row>
+                        <entry>work, expression, or manifestation described in</entry>
+                        <entry>510</entry>
+                        <entry>$a $c</entry>
+                        <entry>Citations to reference works discussing the work, expression, or manifestation</entry>
+                    </row>
+                    <row>
+                        <entry>capture information</entry>
+                        <entry>518</entry>
+                        <entry>$a</entry>
+                        <entry>Notes on place and/or date of recording for one or more expressions.
+                                <ph conkeyref="bped_boilerplate/ph_mrk_hmk_5rb"/></entry>
+                    </row>
+                    <row>
+                        <entry>date of capture</entry>
+                        <entry>518</entry>
+                        <entry>$d</entry>
+                        <entry>Date(s) of recording for one or more expressions</entry>
+                    </row>
+                    <row>
+                        <entry>place of capture</entry>
+                        <entry>518</entry>
+                        <entry>$p</entry>
+                        <entry>Place(s) of recording for one or more expressions</entry>
+                    </row>
+                    <row>
+                        <entry>intended audience of expression</entry>
+                        <entry>521</entry>
+                        <entry>$a $b</entry>
+                        <entry>Notes on the target age, grade level, proficiency level, etc. of the intended audience</entry>
+                    </row>
+                    <row>
+                        <entry>equipment or system requirement</entry>
+                        <entry>538</entry>
+                        <entry>$a</entry>
+                        <entry>Notes on format and/or playback requirements for video carriers or nonstandard or specialized audio carriers</entry>
+                    </row>
+                    <row>
+                        <entry>language of expression</entry>
+                        <entry>546</entry>
+                        <entry>$a</entry>
+                        <entry>Notes on language(s) of the primary content of the resource</entry>
+                    </row>
+                    <row>
+                        <entry>script</entry>
+                        <entry>546</entry>
+                        <entry>$b</entry>
+                        <entry>Script(s) of primary content. For form of musical notation, prefer field 348 $c unless required by local policy.</entry>
+                    </row>
+
+                </tbody>
+            </tgroup>
+        </table>
+        <section id="section_iwx_hhj_5rb">
+            <title>Relationship information (MARC: 7xx)</title>
+            <ul id="ul_qnt_1vk_nsb">
+                <li><b>Agent: creator agent of expression (and narrower elements)</b><ul
+                        id="ul_aq5_yvk_nsb">
+                        <li>Collective Agent: creator collective agent of expression (and narrower
+                                elements)<ul id="ul_lhn_bwk_nsb">
+                                <li>Corporate Body: creator corporate body of expression (and
+                                    narrower elements)</li>
+                                <li>Family: creator family of expression (and narrower
+                                    elements)</li>
+                            </ul></li>
+                        <li>Person: creator person of expression (and narrower elements)</li>
+                    </ul></li>
+                <li>Expression: authorized access point for expression</li>
+                <li>Expression: expression manifested</li>
+                <li>Work: authorized access point for work</li>
+                <li>Work: related agent (person, etc.) of work (and narrower elements)</li>
+                <li>Work: related work of work (and narrower elements)</li>
+            </ul>
+            <note conkeyref="bped_boilerplate/note_nmt_zfk_nsb" id="note_f4c_13z_nsb"/>
+            <table frame="all" rowsep="1" colsep="0" id="table_zmz_chz_nsb">
+                <title>Relationship Information Summary</title>
+                <tgroup cols="4" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="4*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="2.5*"/>
+                    <colspec colname="newCol4" colnum="4" colwidth="7*"/>
+                    <thead>
+                        <row>
+                            <entry>Element</entry>
+                            <entry>Tag</entry>
+                            <entry>Subfield(s)</entry>
+                            <entry>Scope</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry morerows="5">
+                                <p>creator agent (person, etc.) of expression (and narrower elements)</p>
+                                <p>related agent (person, etc.) of work (and narrower elements)</p>
+                            </entry>
+                            <entry morerows="1">700</entry>
+                            <entry>$a $b $c $d $q</entry>
+                            <entry>Personal name authorized access point</entry>
+                        </row>
+                        <row>
+                            <entry>$e</entry>
+                            <entry>Agent-to-resource relationship information</entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">710</entry>
+                            <entry>$a $b </entry>
+                            <entry>Non-conference/meeting/event corporate body authorized access point</entry>
+                        </row>
+                        <row>
+                            <entry>$e</entry>
+                            <entry>Agent-to-resource relationship information</entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">711</entry>
+                            <entry>$a $ b$c $d $q</entry>
+                            <entry>Meeting/conference/event authorized access point</entry>
+                        </row>
+                        <row>
+                            <entry>$j</entry>
+                            <entry>Agent-to-resource relationship information</entry>
+                        </row>
+                        <row>
+                            <entry morerows="5">
+                                <p>authorized access point for work/expression</p>
+                                <p>expression manifested</p>
+                                <p>related work of work (and narrower elements)</p>
+                            </entry>
+                            <entry morerows="1">700</entry>
+                            <entry>$a $b $t $k $l $m $n $o $p $r $s</entry>
+                            <entry>Authorized access point for work (for representative expressions) or expression (for non-representative expressions) created by a person</entry>
+                        </row>
+                        <row>
+                            <entry>$i</entry>
+                            <entry>Resource-to-resource relationship information</entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">710</entry>
+                            <entry>$a $b $t $k $l $m $n $o $p $r $s</entry>
+                            <entry>Authorized access point for work (for representative expressions) or expression (for non-representative expressions) created by a corporate body</entry>
+                        </row>
+                        <row>
+                            <entry>$i</entry>
+                            <entry>Resource-to-resource relationship information</entry>
+                        </row>
+                        <row>
+                            <entry morerows="1">730</entry>
+                            <entry>$a $t $k $l $m $n $o $p $r $s</entry>
+                            <entry>Authorized access point for work (for representative expressions) or expression (for non-representative expressions) that cannot be qualified by a creator</entry>
+                        </row>
+                        <row>
+                            <entry>$i</entry>
+                            <entry>Resource-to-resource relationship information</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </body>
+</topic>

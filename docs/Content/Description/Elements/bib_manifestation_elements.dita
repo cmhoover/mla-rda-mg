@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="bib_manifestation_elements">
+    <title>Manifestation Elements</title>
+    <body>
+        <p>Additional commentary on specific manifestation elements will be provided in later versions as necessary.</p>
+        <section id="section_t5v_gsg_tsb">
+            <title>publisher number for notated music</title>
+            <p>MARC recommendations from the MLA Encoding Standards Subcommittee's MARC Cataloging Inefficiency Task Group:</p>
+            <ul id="ul_uf2_jsg_tsb">
+                <li>Generally use 028 $q for publication number clarification instead of field 500.
+                    If clarification out of the scope of 028 $q is needed, use field 500.</li>
+            </ul>
+            <p>This recommendation is reflected in the MLA Best Practices in the RDA Toolkit.</p>
+        </section>
+    </body>
+</topic>
