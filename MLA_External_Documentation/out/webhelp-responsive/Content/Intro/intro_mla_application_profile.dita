@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="mla_application_profile" outputclass="forcePageBefore">
+    <title>The MLA RDA Application Profile</title>
+    <prolog>
+        <critdates>
+            <created date="2021-12-09"/>
+            <revised modified="2023-06-20"/>
+        </critdates>
+    </prolog>
+    <body>
+        <p>An application profile is, broadly speaking, a list of metadata elements that must,
+            should, can, or must not be recorded in the context of a particular application (for
+            example, creating a MARC Bibliographic record for a score). The <ph
+                conkeyref="bped_boilerplate/ph_myj_jmd_wxb"/> is one example of an application
+            profile, in this case for libraries contributing to the PCC Bibliographic Cooperative
+            program.</p>
+        <p>An application profile conforming to the recommendations in the MLA Best Practices is available as a  <xref href="https://drive.google.com/drive/folders/10tQg9WDql8_eMJ_yWMyXivs-X4EW2Oun?usp=drive_link" format="html" scope="external" outputclass="externallink">draft spreadsheet in Excel format</xref> (Google Drive link; final format potentially subject to change). The profile spreadsheet is divided into multiple worksheets: one for elements common to all musical resources and four additional sheets for elements (or treatments of elements) specific to scores and recordings (in physical or electronic formats).</p>
+        <section id="section_y4t_byt_vrb">
+            <title>Interpreting the Application Profile</title>
+            <p>The MLA application profile includes the following columns, though not every column will be populated for each element:</p>
+            <ul id="ul_wwg_ygc_wxb">
+                <li><b>Element:</b> The name of the element the row pertains to. The same element may appear more than once if there are recommendations for more than one recording method.</li>
+                <li><b>Domain:</b> The RDA entity type the element describes.</li>
+                <li><b>Range:</b> The RDA entity type to which the element relates the entity that is being described. Elements that don't express a relationship between entities, such as those that take their values from a controlled vocabulary, do not have a Range.</li>
+                <li><b>Recording Method:</b> The recording method (unstructured description, structured description, identifier, IRI) the row pertains to. The same element may have different recommendations for different recording methods.</li>
+                <li><b>Min:</b> Cardinality specification for technical applications, such as record validation; the minimum number of instances of an element that must be recorded. Always either 0 (may be absent) or 1 (at least one must be present).</li>
+                <li><b>Max:</b> Cardinality specification for technical applications, such as record validation; the maximum number of instances of an element that may be recorded. May be 0 (must not be present), 1 (must be unique), or any (no limit).</li>
+                <li><b>First Instance:</b> A summary of the MLA Best Practices recommendation for recording the first instance of an element. One of: <ul id="ul_wdz_vjc_wxb">
+                        <li><b>Mandatory:</b> The element must always be recorded using the specified recording method, even if a value must be supplied by a cataloger.</li>
+                        <li><b>Mandatory if applicable:</b> The element must be recorded using the
+                            specified recording method, providing that there is anything to
+                            record.</li>
+                        <li><b>Recommended if applicable/feasible:</b> Recording the element is recommended, but optional.</li>
+                        <li><b>Cataloger's judgment:</b> Recording the element is optional.</li>
+                        <li><b>Prefer narrower element:</b> Data appropriate for this element may be recorded, but a more specific element exists and should generally be used instead if the encoding standard being used supports it.</li>
+                        <li><b>Do not record:</b> The element must not be recorded using the specified recording method.</li>
+                    </ul></li>
+                <li><b>Additional Instances:</b> The MLA Best Practices recommendation for recording the second, third, or further instance of an element, using the same list of values as First Instance.</li>
+                <li><b>Notes:</b> Notes for context or clarification.</li>
+                <li><b>VES:</b> The <term>vocabulary encoding scheme(s)</term> (such as LCMPT), if any, from which the value of the element should be taken. May apply to structured descriptions, identifiers, or IRIs.</li>
+                <li><b>SES:</b> The <term>string encoding scheme(s)</term> (such as ISBD punctuation), if any, to be used in formatting the value of the element. Applies to structured descriptions only.</li>
+                <li><b>IRI:</b> The IRI of the RDA element in the <ph
+                        conkeyref="bped_boilerplate/ph_zbs_ycs_byb"/>. In current practice these are
+                    unlikely to be used in MARC, but they may be recorded in $4 for fields that
+                    support it.</li>
+            </ul>
+            <p>Elements and element/recording method pairs not specified in the profile may be considered cataloger's judgment or use recommendations from another application profile.</p>
+        </section>
+    </body>
+</topic>

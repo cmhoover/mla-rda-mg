@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="aggregates">
+    <title>Authorized Access Points for Aggregating Works and Expressions</title>
+    <body>
+        <section id="section_sbd_cq1_yrb">
+            <title>Complete works created by a single agent</title>
+            <p>Follow LC-PCC PS for Community Resources: <xref href="https://access.rdatoolkit.org/en-US_ala-5476ebf7-f815-3d47-be2b-bf3c71bd1489" format="html" scope="external" outputclass="rdatk">preferred title of musical work: Anglo-American legacy instructions</xref>. For detailed guidance, see <xref href="../WE/musical_we_aaps.dita"/>.</p>
+        </section>
+        <section id="section_phf_mq1_yrb">
+            <title>Complete works in one form or for one broad or specific medium created by a single agent</title>
+            <p>Follow LC-PCC PS for Community Resources: <xref href="https://access.rdatoolkit.org/en-US_ala-5476ebf7-f815-3d47-be2b-bf3c71bd1489" format="html" scope="external" outputclass="rdatk">preferred title of musical work: Anglo-American legacy instructions</xref>. For detailed guidance, see <xref href="../WE/musical_we_aaps.dita"/>.</p>
+        </section>
+        <section id="section_jtz_nq1_yrb">
+            <title>Selected works created by a single agent</title>
+            <p>If an aggregate manifests works by the same creator but they are neither complete in total, nor complete within a single form or medium of performance, apply the general instructions at Work: <xref href="https://access.rdatoolkit.org/en-US_ala-f1aeca83-e610-3202-8706-bdfeb9975449" format="html" scope="external" outputclass="rdatk">access point for work</xref> and Work: <xref href="https://access.rdatoolkit.org/en-US_ala-086aad00-3bd2-3cc1-8dd0-52a5353b227b" format="html" scope="external" outputclass="rdatk">authorized access point for work</xref>.</p>
+            <p>Include Agent: <xref href="https://access.rdatoolkit.org/en-US_ala-793da8ae-3e0c-3b0e-9fc0-a4074f7b4195" format="html" scope="external" outputclass="rdatk">authorized access point for agent</xref> as part of the authorized access point for the aggregating work. For the preferred title, generally follow the general instructions at Work: <xref href="https://access.rdatoolkit.org/en-US_ala-f21836a5-7397-341a-bd4c-bd641e765511/73b122cd-2689-470c-a278-a9139fec5827" format="html" scope="external" outputclass="rdatk">preferred title of work. Recording an unstructured description</xref> unless all of the <xref
+                    href="https://access.rdatoolkit.org/PolicyStatement/Index?externalId=en-US_ala-3c7bb82e-eb91-3504-9cd3-bac7f29a81a4#division_rdaId_7e1d5095-a07a-46cb-aede-47c1bfa66efe" format="html" scope="external" outputclass="lcpcctk">LC-PCC PS conditions under "Additional instructions for aggregating works"</xref> are met.</p>
+            <note id="note_qvh_4db_yrb">This is LC-PCC practice as of time of writing; note this is a change from past practice, where typically the preferred title would be recorded as a <term>conventional collective title</term> followed by a period, space, and the term <term>Selections</term> even if the aggregating work is commonly identified by title in manifestations or reference sources. Practice in the Music Division at LC is to retain a CCT/Selections preferred title if there is no collective title or if the preferred title would be generic—that is, it would consist only of a type of composition, number, medium of performance, etc. (e.g., <i>Six guitar preludes</i>; <i>Works for piano 4-hands</i>). </note>
+        </section>
+        <section id="section_k2l_yq1_yrb">
+            <title>Works created by multiple agents</title>
+            <p>Apply the general instructions at Work: <xref href="https://access.rdatoolkit.org/en-US_ala-086aad00-3bd2-3cc1-8dd0-52a5353b227b/p_jcl_1bf_wfb" format="html" scope="external" outputclass="rdatk">authorized access point for work. Compilation of works by two or more agents</xref>. Do not qualify the access point for the work with the authorized access point for a creator agent. However, if a single agent is responsible for the creation of all of the <term>expressions</term> manifested, also see <xref href="#aggregates/section_xxg_jym_xrb" format="dita">Expressions created by a single agent</xref>.</p>
+        </section>
+        <section id="section_xxg_jym_xrb">
+            <title>Expressions created by a single agent, where the creators of the works expressed are unknown or of reduced bibliographic interest</title>
+            <p>In some cases where an aggregate features a creator agent of expression common to all the expressions aggregated, the authorized access point for that common creator agent of expression (instead of a common creator agent of work) may be used to qualify the authorized access point for an aggregating work. This option may be applied under the following conditions:</p>
+            <ol id="ul_dfv_tym_xrb">
+                <li>Both of the following apply:<ul id="ul_yzn_5ym_xrb">
+                        <li>The works aggregated do not share a readily identifiable common creator agent of work and do not belong to a creator-centric art music tradition<p><b>AND</b></p></li>
+                        <li>The aggregate specifically highlights one particular performer, conductor, performing group, music producer, etc., including but not necessarily limited to<ul id="ul_ygh_wym_xrb">
+                                <li>A manifestation with a generic preferred title such as "Greatest hits" that makes little or no sense without the context of the performer's name</li>
+                                <li>A self-titled album</li>
+                                <li>An album in which the name of the featured performer, ensemble, etc., is emphasized and the creators of the works aggregated are significantly downplayed or wholly omitted</li>
+                                <li>A manifestation that purports to transcribe in notated music
+                                    format a specific performance or set of performances of one
+                                        agent<fn>Note that the phrase "as performed by" is commonly
+                                        found in sheet music and popular music anthologies, but is
+                                        not necessarily indicative of an attempt to faithfully
+                                        transcribe specific performances of the named performer.
+                                        Generally interpret such statements as an advertising tactic
+                                        rather than an editorial mission statement unless there is
+                                        evidence to the contrary presented in the resource or
+                                        secondary sources.</fn></li>
+                            </ul></li>
+                    </ul><p><b>OR</b></p></li>
+                <li>The creator agent of expression common to all expressions aggregated also functions, or can reasonably be assumed to function, as the creator of the aggregating work through the selection, arrangement, etc. of works aggregated<p><b>OR</b></p></li>
+                <li>The expressions manifested by the aggregate share a common creator agent of expression and belong to a musical genre or tradition in which boundaries between composition and performance are blurred or absent (e.g.: free jazz; raga)</li>
+            </ol>
+            <p>Note that these conditions may significantly overlap.</p>
+            <p><b>Do not</b> use the name of a creator agent of expression to qualify the authorized access point for an aggregating work if the aggregate represents<ul id="ul_afx_vzm_xrb">
+                    <li>a manifestation that highlights multiple performers, ensembles, etc. with approximately equal prominence</li>
+                    <li>a notated music manifestation that merely aggregates works associated with a particular performer, without significant evidence that it represents an attempt to transcribe or replicate specific performances</li>
+                    <li>a "recital album" of music by prominently credited creators, even if all expressions aggregated prominently feature a single performer or group</li>
+                </ul></p>
+            <p>In all other cases, or in case of doubt, apply the instructions at <xref href="#aggregates/section_k2l_yq1_yrb" format="dita"/>.</p>
+        </section>
+        <example id="example_m32_ddt_xrb">
+            <title>Example access points for collection aggregates of works by multiple creators</title>
+            <table conkeyref="bped_ex/table_usv_ph1_yrb" conrefend="default.dita#default/table_jmw_sh1_yrb" id="table_qss_lj1_yrb">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </example>
+    </body>
+</topic>

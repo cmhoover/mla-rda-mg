@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="formats_sound_recordings_labels">
+    <title>Publication, distribution, and manufacture statements for sound recordings</title>
+    <body>
+        <section id="section_nrp_ynd_pxb">
+            <title>Name of publisher</title>
+            <p>This section expands on MLA Best Practices for Manifestation: <xref href="https://access.rdatoolkit.org/en-US_ala-8fb9e501-1ef9-3b1f-9afa-078737576947/7884d7f3-8dad-48f1-a1e8-da53ea7c0f0e" format="html" scope="external" outputclass="rdatk">name of publisher</xref>, specifically the <xref href="https://access.rdatoolkit.org/en-US_ala-76d7f610-d80d-39e1-9c9c-1a86ec4cf16e/05e3e33f-3acb-4042-b7cd-8936fa11cca0" format="html" scope="external" outputclass="mlatk">Prerecording section</xref> and the <xref href="https://access.rdatoolkit.org/en-US_ala-76d7f610-d80d-39e1-9c9c-1a86ec4cf16e/p_zzl_zcd_z4b" format="html" scope="external" outputclass="mlatk">condition addressing multiple publisher names for the same resource</xref>.</p>
+            <p>Citations and discussions of musical sound recordings typically identify them by record label: that is, a trade or brand name which functions more like a publisher imprint than a discrete entity. Some labels may correspond exactly to a corporate body or operate as divisions or subsidiaries of a corporate body. However, labels do not necessarily share a one-to-one relationship with the entities that own and manage them. For example, the Columbia label—the oldest sound recording label still active—has been owned by at least seven companies in its history, three of which have been divisions of Sony.</p>
+            <p>As a further complication, the publisher or label is frequently distinct from the entity or entities that hold the copyright or other rights to the music presented on the recording. This is most obvious when one company or label is identified as having licensed the music to another company or label for publication, but it can occur in less obvious ways as well. For example, the company Bella Musica Edition administers three labels: Antes Edition, Bella Musica, and Thorofon; for all three, the copyright holder named on the recording is the parent company, Bella Musica Edition.</p>
+            <p>Wherever possible, prefer names of labels over names of companies that own or manage them.</p>
+            <p id="p_vgr_cpd_pxb"><b>Identifying record labels</b></p>
+            <p>A record label will most often be associated with a prominently displayed logo, which may include graphical elements or consist solely of text styled in distinctive fashion. Such a logo is not always present, however, and other entities may be identified by logo as well. Resources such as <xref href="https://www.discogs.com/" format="html" scope="external" outputclass="externallink">Discogs</xref> may be of help in deciding on a label name in ambiguous cases; see the <xref href="#formats_sound_recordings_labels/section_rpy_4qd_pxb" format="dita"/> section for more information. </p>
+            <p>Generally, do not treat any of the following as publishers, unless there is clear evidence to the contrary, or no other candidates appear on the resource:</p>
+            <ul id="ul_tjk_r4d_pxb">
+                <li>An agent identified only as a rightsholder or license granter</li>
+                <li>An agent identified as sponsoring or otherwise supporting a project, performance, festival, etc.</li>
+                <li>An agent whose role is not specified, but which does not appear to be routinely involved in publishing, such as a recording studio, government program, arts council, radio station, etc.</li>
+            </ul>
+            <p id="p_xxk_cpd_pxb"><b>Choosing a form of name to record</b></p>
+            <p>If multiple forms of name associated with an entity appear on a manifestation, when possible, choose a form of name in this order of preference:</p>
+            <ul id="ul_drb_z4d_pxb">
+                <li dir="ltr">A form of name that appears in connection with a prominently displayed logo on the same source of information as the title proper</li>
+                <li dir="ltr">A form of name that appears in connection with a prominently displayed logo on another source from the manifestation itself</li>
+                <li dir="ltr">A form of name that appears in connection with an issue number anywhere on the manifestation itself</li>
+                <li dir="ltr">A form of name from anywhere on the manifestation itself</li>
+                <li dir="ltr">A form of name from any other source</li>
+            </ul>
+            <p id="p_q2f_cpd_pxb"><b>Multiple labels</b></p>
+            <p>It is common for publication, distribution, and manufacture to be intertwined for audio recordings, which can complicate deciding which labels or other entity names to record. Follow the <xref href="https://access.rdatoolkit.org/en-US_ala-94e76e78-c100-3684-b1b8-f11d04019b3e/6d1d8aa6-b70f-4ff6-912a-6ccb2404240a" format="html" scope="external" outputclass="mlatk">MLA Best Practices for the Prerecording section</xref> of Manifestation: <xref href="https://access.rdatoolkit.org/en-US_ala-d34564b0-6a8a-384f-b966-a9638b234d89" format="html" scope="external" outputclass="rdatk">name of distributor</xref>; that is, if you cannot determine whether an entity is acting as a publisher or distributor, treat it as a publisher.</p>
+            <p>In some cases, weighing the following factors may help clarify an entity's relationship to the resource.</p>
+            <ul id="ul_v2c_2jc_rxb">
+                <li>
+                    <p><b>Issue numbers:</b></p>
+                    <p>Issue numbers sometimes contain initials or abbreviations with a clear correspondence to a named entity (for example, numbers prefixed with "OMM" for Orange Mountain Music), usually acting as a publisher and/or distributor.</p>
+                </li>
+                <li>
+                    <p><b>Packaging copyright:</b></p>
+                    <p>Conventional (©) copyright notices—especially when provided in addition to phonogram (℗) copyright notices—usually refer to the packaging (artwork, liner notes, etc.) of a manifestation. The owner of the packaging copyright will usually be affiliated with the record label responsible for releasing the manifestation.</p>
+                    <p>A phonogram copyright notice by itself is ambiguous since, as described above, the ownership of the recorded content is not necessarily straightforward.</p>
+                </li>
+                <li>
+                    <p><b>Label codes:</b></p>
+                    <p>Some manifestations include a label code, recognizable as the initials "LC" followed by a four- or five-digit number, assigned by the German copyright society GVL to labels that issue releases in Germany. These are not always perfectly accurate or specific. For example, the label code LC 30419 corresponds to "Parlophone Label Group (PLG)" rather than a specific label likely to be named on a manifestation. </p>
+                    <p>In 2017 GVL made label codes optional in favor of the International Standard Recording Code (ISRC), but they may be <xref href="https://labelrecherche.gvl.de/" format="html" scope="external" outputclass="externallink">searched on the GVL website</xref>; a PDF list is also available.</p>
+                </li>
+            </ul>
+            <p id="p_xsb_qpd_pxb"><b>Rereleases, historical labels, and facsimile packaging</b></p>
+            <p>In some cases, a reissue of an album may include logos or information pertaining to a label that released the original manifestation, even in cases where the label in question is long defunct. This inclusion could be deliberate or incidental—for example, because a carrier label or container is presented as a facsimile of the original release's carrier or packaging.</p>
+            <p>Generally, do not record a label as a publisher name if it is known to have no longer been active at the time of publication, or if it appears only in facsimile and information elsewhere in the manifestation indicates a different entity is responsible for the reissue. In case of doubt, use cataloger's judgment.</p>
+            <p>A former label name may be noted as an unstructured description in a Manifestation: <xref href="https://access.rdatoolkit.org/en-US_ala-2f069b6a-bc80-3498-ba25-28ec7d8672c2" format="html" scope="external" outputclass="rdatk">note on manifestation</xref> (MARC 500), or as part of a structured description of a Manifestation: <xref href="https://access.rdatoolkit.org/en-US_ala-b716f212-6108-3c94-8067-2b46828562c2" format="html" scope="external" outputclass="rdatk">related manifestation of manifestation</xref> (MARC 775 if same Manifestation: <xref href="https://access.rdatoolkit.org/en-US_ala-0dd63c0d-066f-3ddc-885a-ff83c25cf752" format="html" scope="external" outputclass="rdatk">carrier type</xref> or MARC 776 if
+                different).</p>
+            <p dir="ltr">For issue numbers associated with the original label of a reissued album, see the <xref href="https://access.rdatoolkit.org/en-US_ala-8f740d57-2d43-325b-b2fa-a0746bee7717/ala-8f740d57-2d43-325b-b2fa-a0746bee7717" format="html" scope="external" outputclass="mlatk">MLA Best Practices for Manifestation: identifier for manifestation</xref>.</p>
+            <p id="p_lrx_1qd_pxb"><b>Self-published manifestations</b></p>
+            <p dir="ltr">If a commercially released manifestation has no evident publisher or label name, no publisher or label can be determined from another source, and a featured performer or performing group is the only agent named as a rightsholder on the resource itself, record the name of the performer or performing group as a name of publisher. Treat an inferred publisher name as information taken from outside the manifestation itself. Choose the form of name according to cataloger's judgment.</p>
+        </section>
+        <section id="section_cbj_dqd_pxb">
+            <title>Distribution and manufacture statements</title>
+            <p>Distribution and manufacture statements are cataloger's judgment unless required by another policy (for example, if using DCRM to catalog rare materials). </p>
+            <p>It is common for publication, distribution, and manufacture to be intertwined for audio recordings. Generally, do not record a distribution or manufacture statement for an entity that has already been named as a publisher; likewise, do not record a manufacture statement for an entity that has already been named as a distributor.</p>
+        </section>
+        <section id="section_y3m_hrd_pxb">
+            <title>Examples</title>
+            <p><b>Full publication statements</b></p>
+            <table conkeyref="bped_ex/table_rxn_4sd_pxb" id="table_xmc_pwd_pxb">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table conkeyref="bped_ex/table_bfn_p5d_pxb" id="table_ijd_qwd_pxb">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table conkeyref="bped_ex/table_cpc_jvd_pxb" id="table_k3b_rwd_pxb">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <p><b>Label names</b></p>
+            <table conkeyref="bped_ex/table_vxt_xkf_vrb" id="table_ixl_wwd_pxb">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table conkeyref="bped_ex/table_wxt_xkf_vrb" id="table_skx_wwd_pxb">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table conkeyref="bped_ex/table_yxt_xkf_vrb" id="table_bvj_xwd_pxb">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table conkeyref="bped_ex/table_zxt_xkf_vrb" id="table_gv1_ywd_pxb">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section id="section_rpy_4qd_pxb">
+            <title>Additional resources</title>
+            <dl>
+                <dlentry>
+                    <dt><xref href="https://adp.library.ucsb.edu/" format="html" scope="external" outputclass="externallink">Discography of American Historical Recordings (DAHR)</xref></dt>
+                    <dd>
+                        <p>A database of recordings from the 78rpm era made by American record companies. Includes matrix numbers and date/place of capture information where known.</p>
+                    </dd>
+                </dlentry>
+            </dl>
+            <dl id="dl_r2x_pqd_pxb">
+                <dlentry>
+                    <dt><xref href="https://www.discogs.com/" format="html" scope="external" outputclass="externallink">Discogs</xref></dt>
+                    <dd>
+                        <p>A user-maintained catalog of recordings for collectors and sellers of music. Discogs organizes all releases and alternate versions of an album under a "master release," which functions similarly to the RDA concept of a <xref href="https://access.rdatoolkit.org/en-US_rdaregistry.info-termList-RDATerms-1149" format="html" scope="external" outputclass="rdatk">work group</xref>. It also includes artist and label information, including alternate names and aliases with an effort to differentiate between identically named entities; in the case of artists and labels with limited information this may not be sufficiently definitive for authority work.</p>
+                    </dd>
+                </dlentry>
+            </dl>
+            <dl id="dl_m3z_tqd_pxb">
+                <dlentry>
+                    <dt><xref href="https://labelrecherche.gvl.de/" format="html" scope="external" outputclass="externallink">Gesellschaft zur Verwertung von Leistungsschutzrechten (GVL), Label Recherche</xref></dt>
+                    <dd>
+                        <p>A searchable index of labels that have been assigned label codes by GVL. Searchable by label code (omit the preceding "LC"), label name or short form, and associated manufacturer(s) ("Hersteller").</p>
+                    </dd>
+                </dlentry>
+                <dlentry>
+                    <dt><xref href="https://musicbrainz.org/" format="html" scope="external" outputclass="externallink">Musicbrainz</xref></dt>
+                    <dd>
+                        <p>A user-maintained catalog of music metadata that supports recording relationships between entities. Searchable by many categories, including artist, label, release, event, work, and series. Musicbrainz organizes all releases and alternate versions of an album under a "release group," which functions similarly to the RDA concept of a <xref href="https://access.rdatoolkit.org/en-US_rdaregistry.info-termList-RDATerms-1149" format="html" scope="external" outputclass="rdatk">work group</xref>. Also includes a Wikidata-based vocabulary of medium of performance terms.</p>
+                    </dd>
+                </dlentry>
+                <dlentry>
+                    <dt><xref href="https://web.library.yale.edu/cataloging/music/sound-recording-cataloging" format="html" scope="external">Music Cataloging at Yale. Sound recording cataloging</xref></dt>
+                    <dd>
+                        <p dir="ltr">A collection of various resources helpful especially for cataloging older recording formats, particularly 78 RPM records, including historical information. Includes some information specific to Yale cataloging practices.</p>
+                    </dd>
+                </dlentry>
+            </dl>
+        </section>
+    </body>
+</topic>

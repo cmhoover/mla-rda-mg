@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="relationship_elements">
+    <title>Relationship Elements</title>
+    <body>
+        <p>TBD</p>
+        <section id="section_kcy_yxd_gyb">
+            <title>Parsing relationship element names</title>
+            <p>Relationship element names contain up to three pieces of information, usually in this order:</p><ol id="ol_jq1_bzd_gyb">
+                    <li>The type of relationship being expressed. This will always be present.</li>
+                    <li>The type of entity that is the target of the relationship. This may be absent if there is only one possibility.</li>
+                    <li>The type of entity being described. This may be absent if there is only one possibility.</li>
+                </ol>
+            <p>Additionally, while it is not technically part of the element name, the convention in RDA is to prefix element names with their domain (that is, the entity type they describe), which is also the entity they are filed under in the RDA Toolkit. </p>
+            <p><b>Examples:</b></p>
+            <p>The element Work: ISSN contains only the first piece of information, the relationship type. It can only relate a Nomen (in this case, the string of characters assigned by the ISSN International Centre) to a Work (a serial).</p>
+            <p>The element Work: author person contains two pieces of information. The "author" relationship can only relate a Work entity to some type of Agent, so "work" can be omitted, but the type of agent (Person) is specified because any kind of Agent could be valid.</p>
+            <p>The element Item: dedicatee person of item contains all three pieces of information, because the "dedicatee" relationship is ambiguous in both directions: any type of Agent could have something dedicated to them, and the thing being dedicated could be a Work or a unique Item.</p>
+            <note id="note_z2d_t32_gyb">Work: composer agent of work, its narrower elements, and their inverses are atypical in that "...of work" is redundant: the "composer" relationship can only relate a Work and some type of Agent. However, original RDA had the relationship designator <term>composer (expression)</term>.</note>
+        </section>
+        <section id="section_p5l_vpy_wxb">
+            <title>Relationship Labels</title>
+            <p>Agent-to-WEMI Relationships</p>
+            <p>aafeaf</p>
+            <ul id="ul_ukr_xqy_wxb">
+                <li>Agent<ul id="ul_r4n_yqy_wxb">
+                        <li>Person</li>
+                        <li>Collective agent<ul id="ul_zg3_zqy_wxb">
+                                <li>Corporate body</li>
+                                <li>Family</li>
+                            </ul></li>
+                    </ul></li>
+            </ul>
+            <p>Of these, "person" and "corporate body" are most likely to be used for routine cataloging of music materials. </p>
+            <p>Because the names of relationship elements specify a) the type of relationship being expressed and b) the entities on either end of the relationship, they can easily become verbose and sometimes difficult to parse, making them unsuitable for display to the public. As a result, LC-PCC has created a set of relationship labels. </p>
+            <p>Relationships can be expressed as a sentence with a <b>subject</b> (the entity being described), a <b>predicate</b> (a relationship element indicating the subject <i>has</i> some type or relationship with or <i>is</i> something relative to another entity), and an <b>object</b> (the entity that is the target of the relationship).</p><table frame="none" rowsep="0" colsep="0" id="table_rmd_nd4_cyb">
+                    <title>Relationships as sentences</title>
+                    <tgroup cols="3" align="left">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1*"/>
+                        <colspec colname="c3" colnum="3" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry>Subject</entry>
+                                <entry>Predicate</entry>
+                                <entry>Object</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>Die Zauberflöte</entry>
+                                <entry><i>has</i> composer person of work</entry>
+                                <entry>Mozart</entry>
+                            </row>
+                            <row>
+                                <entry>Mozart</entry>
+                                <entry><i>is</i> composer person of work of </entry>
+                                <entry>Die Zauberflöte</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            <p>The LRM model, like FRBR before it, requires every relationship have an inverse, which is logical: if you can relate a work to its composer(s), it makes sense that you can also relate a composer to their work(s). A small number of relationship elements are perfectly symmetrical and thus are their own inverses. For example, the inverse relationship of "related manifestation of manifestation" is "related manifestation of manifestation"; it is the same type of entity (a manifestation) on both sides of the relationship, and the relationship (an unspecified "related to") is the same in both directions.</p>
+            <p>In practice, however, for most relationships we are more likely to care about one direction of relationship than the other in most contexts. In everyday cataloging we are more likely to catalog a book and need to identify its author than we are to catalog an author and need to identify their works. </p>
+            <p/>
+            <table frame="none" rowsep="0" colsep="0" id="table_km5_yrz_wxb">
+                <title>Agent to work relationships</title>
+                <tgroup cols="4" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <colspec colname="c4" colnum="4" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>PCC Relationship Label</entry>
+                            <entry>RDA Regsitry Element</entry>
+                            <entry>Original RDA Relationship Designator</entry>
+                            <entry>Scope</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry morerows="2">composer</entry>
+                            <entry>composer agent of work</entry>
+                            <entry morerows="2">composer</entry>
+                            <entry morerows="2">An agent who created a musical work, including a work that incorporates text by another creator. </entry>
+                        </row>
+                        <row>
+                            <entry>composer person of work</entry>
+                        </row>
+                        <row>
+                            <entry>composer corporate body of work</entry>
+                        </row>
+                        <row>
+                            <entry morerows="2">author</entry>
+                            <entry>author agent</entry>
+                            <entry morerows="2">author</entry>
+                            <entry morerows="2">An agent who created a textual work (such as a poem) later set to music. Most often applicable to art music; for dramatic music see <term>librettist</term> and <term>lyricist</term>. For most popular music see <term>lyricist</term>.  </entry>
+                        </row>
+                        <row>
+                            <entry>author person</entry>
+                        </row>
+                        <row>
+                            <entry>author corporate body</entry>
+                        </row>
+                        <row>
+                            <entry morerows="2">librettist</entry>
+                            <entry>lyricist agent</entry>
+                            <entry morerows="2">librettist</entry>
+                            <entry morerows="2">An agent who created the text of an opera, oratorio, or other sung stage work other than a musical. For musicals, an agent who created the spoken text; for sung text of a musical, see <term>lyricist</term>.</entry>
+                        </row>
+                        <row>
+                            <entry>lyricist person</entry>
+                        </row>
+                        <row>
+                            <entry>lyricist corporate body</entry>
+                        </row>
+                        <row>
+                            <entry morerows="2">lyricist</entry>
+                            <entry>lyricist agent</entry>
+                            <entry morerows="2">lyricist</entry>
+                            <entry morerows="2">An agent who created the text of a popular song, including a song that forms part of a musical.</entry>
+                        </row>
+                        <row>
+                            <entry>lyricist person</entry>
+                        </row>
+                        <row>
+                            <entry>lyricist corporate body</entry>
+                        </row>
+                        <row>
+                            <entry morerows="2">remix artist</entry>
+                            <entry>remix artist agent</entry>
+                            <entry morerows="2">remix artist</entry>
+                            <entry morerows="2">An agent who creates a new musical work by maniuplating, recombining, or reproducing existing recordings. For mixing that results in a simple or lightly modified combination of tracks, whether live or in a recording studio, see the expression relationship <term>DJ</term>.</entry>
+                        </row>
+                        <row>
+                            <entry>remix artist person</entry>
+                        </row>
+                        <row>
+                            <entry>remix artist corporate body</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </body>
+</topic>

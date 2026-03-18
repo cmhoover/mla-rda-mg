@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="aap_work_expression">
+    <title>Preferred Titles for Musical Works and Expressions</title>
+    <body>
+        <section id="section_izx_wm4_trb">
+            <title>Preferred Titles of Works</title>
+            <p>Consult Community Resources. Community Refinements. Work refinements:
+                <xref href="https://access.rdatoolkit.org/en-US_ala-5476ebf7-f815-3d47-be2b-bf3c71bd1489" format="html" scope="external" outputclass="rdatk">preferred title of musical work: Anglo-American legacy instructions</xref>.</p>
+            <ol id="ol_mzv_cc4_trb">
+                <li>If the work is from after 1500, choose the basis for the title by applying the
+                    instructions in the conditions and options immediately under <term
+                        outputclass="rdacite">Recording an unstructured description</term>.
+                    Otherwise choose the basis for the title by following the instructions under
+                        <xref
+                        href="https://access.rdatoolkit.org/en-US_ala-5476ebf7-f815-3d47-be2b-bf3c71bd1489/p_xyj_3my_kdb"
+                        format="html" scope="external" outputclass="rdatk">Musical work that is
+                        created before 1501</xref>.</li>
+                <li>Apply the instructions for individual works, parts of works, or compilations.<p>For an individual work, or for parts of an individual work, first apply the omissions under <xref href="https://access.rdatoolkit.org/en-US_ala-5476ebf7-f815-3d47-be2b-bf3c71bd1489/p_i41_qmy_kdb" format="html" scope="external" outputclass="rdatk">Individual musical work</xref>. For a part or parts of a single larger work, apply the omissions to the parent work, ignoring the parts for now.</p><ul id="ol_jl3_mc4_trb">
+                        <li>If the resulting title is <xref href="https://access.rdatoolkit.org/Glossary?externalId=en-US_rdaregistry.info-termList-RDATerms-1038" format="html" scope="external" outputclass="rdatk"><term>distinctive</term></xref>, apply any appropriate omissions as instructed at Work: <xref href="https://access.rdatoolkit.org/en-US_ala-f21836a5-7397-341a-bd4c-bd641e765511/p_z5j_b3c_vfb" format="html" scope="external" outputclass="rdatk">preferred title of work. Omissions and changes to a title</xref>.</li>
+                        <li>If the resulting title is a generic or type title (that is, it consists
+                            only of the name of a type of composition), select the final form of the
+                            title based on the additional instructions under <xref
+                                href="https://access.rdatoolkit.org/en-US_ala-5476ebf7-f815-3d47-be2b-bf3c71bd1489/p_ljt_4mz_kdb"
+                                scope="external" format="html" outputclass="rdatk">Individual
+                                musical work. Title consisting solely of the name of one type of
+                                composition</xref>.<note id="note_nwf_xbd_5rb">For guidance in
+                                determining if a title is distinctive or a type of composition,
+                                consult <ph conkeyref="b_bp_mla/p_ts4_3gh_r4b"/>.</note></li>
+                        <li>If the work is a part or parts of a single larger work, additionally apply the instructions under <xref href="https://access.rdatoolkit.org/en-US_ala-5476ebf7-f815-3d47-be2b-bf3c71bd1489/p_arh_cny_kdb" format="html" scope="external" outputclass="rdatk">Part of a musical work</xref> to the part(s).</li>
+                    </ul><p>For a compilation:</p><ul id="ol_nz4_md4_trb">
+                        <li>If the works are all by a single composer, apply the instructions at <xref href="https://access.rdatoolkit.org/en-US_ala-5476ebf7-f815-3d47-be2b-bf3c71bd1489/p_gxw_vj1_ldb" format="html" scope="external" outputclass="rdatk">Compilation of complete musical works by one composer</xref> or its subsections as appropriate.</li>
+                        <li>If the compilation is not by a single composer or if none of the above conditions apply, in most cases apply the general instructions at Work: <xref href="https://access.rdatoolkit.org/Content/Index?externalId=en-US_ala-f21836a5-7397-341a-bd4c-bd641e765511" format="html" scope="external" outputclass="rdatk">preferred title of work</xref>. See <xref href="../LRM/aggregates_aaps.dita"/> for detailed guidance.</li>
+                    </ul><note id="note_xzl_m35_vrb">Instructions involving the use of conventional collective titles for musical aggregates may be reevaluated in the future.</note></li>
+            </ol>
+        </section>
+        
+    </body>
+</topic>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="formats_electronic_all">
+    <title>General Guidelines for All Electronic Resources</title>
+    <body>
+        <p>The following guidance applies to all electronic resources, regardless of content type or carrier.</p>
+        <section id="section_vz4_c4p_r5b">
+            <title>MARC Leader and Control Fields</title>
+            <p>The leader of a MARC bibliographic record should be coded appropriately for the primary content type of the resource using byte 06: <term>c</term> (notated music) or <term>d</term> (manuscript notated music) for notated music, <term>j</term> (musical sound recording) for performed music, or <term>g</term> (projected medium) for moving images. Do not use <term>m</term> (computer file) in the leader; instead, indicate the resource is an electronic resource by adding appropriately coded values in fields 006, 007, and 008.</p>
+            <p outputclass="sectionsubhead"><b>Field 006</b></p>
+            <p>Record the following values in field 006:</p>
+            <ul>
+                <li>
+                    <p>Byte 00 = <b>m</b> (computer file)</p>
+                </li>
+                <li>
+                    <p>Byte 06 = <b>o</b> (online) or <b>q</b> (direct electronic; that is, on a physical carrier)</p>
+                </li>
+                <li>
+                    <p>Byte 09 = <b>c</b> (representational; use for moving images) or <b>h</b> (sound) or <b>z</b> (other; use for notated music)</p>
+                </li>
+            </ul>
+            <p>Other bytes for field 006 may be omitted unless specifically required by local systems.</p>
+            <p outputclass="sectionsubhead"><b>Field 007</b></p>
+            <p>Record the folowing values in field 007:</p>
+            <ul>
+                <li>
+                    <p>Byte 00 = <b>c</b> (electronic resource)</p>
+                </li>
+                <li>
+                    <p>Byte 01 = <b>r </b>(remote; use for online resources) or <xref href="https://www.loc.gov/marc/bibliographic/bd007c.html" format="html" scope="external"><u>an appropriate value for physical carriers</u></xref></p>
+                    <ul>
+                        <li>
+                            <p>Use <b>o</b> (optical disc) for CDs, DVDs, etc.</p>
+                        </li>
+                        <li>
+                            <p>Use <b>b</b> (computer chip cartridge) for USB flash drives, etc.</p>
+                        </li>
+                        <li>
+                            <p>Use <b>s</b> (standalone device) for single-purpose media devices such as Playaways, etc.</p>
+                        </li>
+                        <li>
+                            <p>Other values are unlikely to be encountered in modern cataloging, but exercise cataloger's judgment</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <p>Other bytes for 007 for electronic resources are not necessary and in most cases should be omitted unless specifically required by a particular application.</p>
+            <p><b>In addition: </b>also record a second instance of field 007 for audio recordings (byte 00 = <b>s</b>) or video recordings (byte 00 = <b>v</b>) as per standard practice for that media type.</p>
+            <p>Field 007 <i>may </i>be recorded for notated music (byte 00 = <b>q</b>), but is not required and is unlikely to be helpful as byte 00 is the only defined value for the notated music format.</p>
+            <p outputclass="sectionsubhead"><b>Field 008</b></p>
+            <p>Record the following value in field 008/23:</p>
+            <ul>
+                <li>
+                    <p>Byte 23 = <b>o</b> (online) or <b>q</b> (direct electronic; that is, on a physical carrier)</p>
+                </li>
+            </ul>
+            <p>Record other values in field 008 as appropriate for the primary content type.</p>
+        </section>
+        <section id="section_xzc_h4p_r5b">
+            <title>RDA Elements</title>
+            <p outputclass="sectionsubhead"><b>Manifestation: </b><b><i>identifier for manifestation</i></b></p>
+            <p>Record identifiers that are specific to an electronic resource according to the RDA instructions for Manifestation: <xref href="https://access.rdatoolkit.org/en-US_ala-95f6a60f-3d2b-32d8-9486-cf810708d4ba" format="html" scope="external" outputclass="rdatk"><u>identifier for manifestation</u></xref>, Manifestation: <xref href="https://access.rdatoolkit.org/en-US_ala-037ea37b-9181-3d68-9ca0-e2879b7052a8" format="html" scope="external" outputclass="rdatk"><u>publisher number for notated music</u></xref>, and/or Manifestation: <xref href="https://access.rdatoolkit.org/en-US_ala-092434e2-e754-3005-a599-51357de31c98" format="html" scope="external" outputclass="rdatk"><u>plate number for notated music</u></xref>, as appropriate.</p>
+            <p>If the resource is not born digital but instead reproduces a physical resource, and references or reproduces identifiers that are specific to the physical original, record those identifiers as instructed by the MLA Best Practices under Manifestation: <xref href="https://access.rdatoolkit.org/en-US_ala-8f740d57-2d43-325b-b2fa-a0746bee7717/bcfddf1b-85b2-4662-a0ad-7cc129e9190e" format="html" scope="external" outputclass="mlatk"><u>identifier for manifestation. Recording. Incorrect identifiers</u></xref>: </p>
+            <ul>
+                <li>
+                    <p>For standard identifiers (ISBN, ISMN, UPC, etc.) specific to a physical manifestation, use 020 or 024 $z. Optionally, provide a clarifying qualifier using $q.</p>
+                </li>
+                <li>
+                    <p>For issue, matrix, plate, publisher, video recording, or distributor numbers, qualify the identifier using 028 $q if they are known to be specific to the physical version.</p>
+                </li>
+            </ul>
+            <table conkeyref="bped_ex/table_yjb_qyd_s5b" id="table_y1y_kd2_s5b">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <p outputclass="sectionsubhead"><b>Manifestation: </b><b><i>media type</i></b></p>
+            <p>The appropriate value will always be <b><term>computer</term></b>.</p>
+        </section>
+    </body>
+</topic>

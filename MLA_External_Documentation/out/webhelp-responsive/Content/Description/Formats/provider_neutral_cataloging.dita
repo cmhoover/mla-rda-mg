@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="provider_neutral_cataloging">
+    <title>Provider-Neutral Cataloging</title>
+    <body>
+
+
+            <p>The provider-neutral cataloging model uses a single bibliographic record to represent all equivalent manifestations of an expression in the form of online resources, or all equivalent manifestations of an expression in the form of photocopies or print-on-demand reproductions, regardless of which content publisher, aggregator, or provider has made the manifestation available. Substantial differences indicative of a different expression warrant a new record.</p>
+            <p>These guidelines assume cataloging in a shared environment, such as WorldCat or a consortial union catalog, where institutions may have access to the same expressions of materials through one or more remote-access providers or in one or more photocopies or print-on-demand reproductions.</p>
+            <p>For libraries cataloging in WorldCat, OCLC policy requires provider-neutral cataloging for the categories of material listed above. Records for those types of materials that do not conform to provider-neutral standards may be freely revised to do so.</p>
+            <p>PCC guidelines do not mandate provider-neutral cataloging, but do require provider-neutral cataloging for online resource records coded as PCC in WorldCat.</p>
+            <p>MLA encourages provider-neutral cataloging when applicable in any shared environment.</p>
+            <p>Much of the guidance in this section summarizes or expands on several documents, not all of which have been updated for official RDA, though the provider-neutral principles they express are unlikely to change significantly:</p>
+            <ul id="ul_wlt_pv4_r5b">
+                <li><ph conkeyref="bped_boilerplate/ph_sdm_bw4_r5b"/></li>
+                <li><ph conkeyref="bped_boilerplate/ph_zky_cw4_r5b"/></li>
+                <li><ph conkeyref="bped_boilerplate/ph_udb_2w4_r5b"/></li>
+            <li><xref href="https://access.rdatoolkit.org/en-US_ala-a63858f3-db31-3d44-af18-4b55d442951a/e4d91d2d-f7a4-4edf-88b9-357160ddd7a4" format="html" scope="external" outputclass="lcpcctk">LC-PCC PS for the Manifestation entity</xref></li>
+            </ul>
+            <p>Records adhering to the above standards should be coded <term>pn</term> in field 040 $e (in addition to $e <term>rda</term> and any other descriptive standards used).</p>
+        <section id="section_mdz_33p_r5b">
+            <title>Restrictions on data recorded in provider-neutral records</title>
+            <p>Provider-neutral records should not contain information that might preclude another library from using a record for an otherwise equivalent resource based on decisions made by a particular provider.</p>
+            <p><b>Do not</b> record the following RDA elements in provider-neutral records:</p>
+            <ul>
+                <li>
+                    <p>Manifestation: <i>encoding format</i> (MARC: 347 $b)<fn>That is, PDF, MP3, etc., often colloquially referred to as file types, but not to be confused with RDA file type (text file, audio file, etc.).</fn></p>
+                </li>
+                <li>
+                    <p>Manifestation: <i>equipment or system requirement</i> (MARC: 538)</p>
+                </li>
+                <li>
+                    <p>Manifestation: <i>file size</i> (MARC: 347 $c)</p>
+                </li>
+            </ul>
+            <p><b>Do not</b> record provider names, titles of subscription packages, database names, etc., in any of the following elements, their narrower elements, or their subelements:</p>
+            <ul>
+                <li>
+                    <p>Manifestation: <i>edition statement</i> (MARC: 250)</p>
+                </li>
+                <li>
+                    <p>Manifestation: <i>publication statement</i> (MARC: 264 _1)</p>
+                </li>
+                <li>
+                    <p>Manifestation: <i>distribution statement</i> (MARC: 264 _2)</p>
+                </li>
+                <li>
+                    <p>Manifestation: <i>manufacture statement</i> (MARC: 264 _3)</p>
+                </li>
+                <li>
+                    <p>Manifestation: <i>series statement</i> (MARC: 490)</p>
+                </li>
+                <li>
+                    <p>Manifestation: <i>note on manifestation</i> (MARC: 5xx)</p>
+                </li>
+                <li>
+                    <p>Manifestation: <i>restriction on access to manifestation</i> (MARC: 500, 506, 856 $z, etc.)</p>
+                </li>
+                <li>
+                    <p>Agent: <i>authorized access point for agent</i> (MARC: 7xx)</p>
+                </li>
+            </ul>
+            <p>The PCC guidelines <b>do</b> permit provider-specific information in limited contexts:</p>
+            <ul>
+                <li>
+                    <p>Manifestation: <i>variant title of manifestation</i> (MARC: 246)</p>
+                    <ul>
+                        <li>
+                            <p><b>May </b>be used to record additional titles specific to one provider. </p>
+                            <ul id="ul_fmz_zjl_x5b">
+                                <li>
+                                    <p>Indicate the provider the title applies to in $i.</p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Manifestation: <i>Uniform Resource Locator</i> (MARC: 856)</p>
+                    <ul>
+                        <li>
+                            <p><b>May </b>record provider-specific URLs.</p>
+                            <ul>
+                                <li>
+                                    <p>URL is LC-PCC PS Core for online resources.</p>
+                                </li>
+                                <li>
+                                    <p>There is no limit to the number of URLs added to a record, provided they link to equivalent manifestations of the resource.</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p><b>May</b> name the provider associated with the URL in $3 for clarity, if desired.</p>
+                        </li>
+                        <li>
+                            <p><b>However:</b> follow <xref href="https://access.rdatoolkit.org/en-US_ala-16fe8370-45f1-3789-a257-e1eb861a39f6/84d1a38a-5cc9-4a8e-bc90-14a52ddf49d8" format="html" scope="external" outputclass="lcpcctk"><u>LC-PCC practice for URLs</u></xref>; that is, do not record URLs that are restricted to one institution, including proxy links, links to institution-specific subdomains (e.g., "<i>uga</i>.naxosmusiclibrary.com"), etc., unless no other URL is available.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Work: <i>note on metadata work</i> (MARC: 588)</p>
+                    <ul>
+                        <li>
+                            <p><b>May</b> cite the provider of the version of the resource consulted in the "description based on" note for born-digital resources.</p>
+                            <ul>
+                                <li>
+                                    <p>If the resource is not born digital, prefer to base the description on the physical original if at all possible.</p>
+                                </li>
+                                <li>
+                                    <p>See the PCC Provider-Neutral E-Resource Guide for detailed requirements for 588 notes.</p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <p ><b>Do not</b> record institution-specific information in fields retained in the shared record; for example, in WorldCat, local information should not be recorded in field 500 (which is retained in the record), but may be recorded in field 590 (which is not saved in the record after export).</p>
+            <note id="note_rft_my4_r5b">
+                <p ><b>Exception:</b> For rare materials, the PCC documentation states that essential local information may be recorded in 5xx fields; any such note must identify the institution to which it applies by <xref href="https://www.loc.gov/marc/organizations/orgshome.html" format="html" scope="external"><u>MARC Organization Code</u></xref> in $5.</p>
+            </note>
+            <p><b>Do not</b> record MARC field 533 (Note on Reproduction) unless specifically instructed by LC-PCC documentation (for print reproductions) or if it is a requirement of a specific digital preservation project (DLF Registry of Digital Masters, HathiTrust Digital Library, etc.). In the latter case, the project should be identified by MARC Organization Code in $5.</p>
+        </section>
+        
+    </body>
+</topic>

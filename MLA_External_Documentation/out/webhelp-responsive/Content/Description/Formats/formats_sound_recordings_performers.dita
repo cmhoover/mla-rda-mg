@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="formats_sound_recordings_performers">
+    <title>Performers and other agents contributing to recordings</title>
+    <body>
+        <p>For audio and video recordings, routinely record performers, narrators and/or presenters in a Manifestation: <xref href="https://access.rdatoolkit.org/en-US_ala-2f069b6a-bc80-3498-ba25-28ec7d8672c2" format="html" scope="external" outputclass="rdatk">note on manifestation</xref> if they are not already named as part of a Manifestation: <xref href="https://access.rdatoolkit.org/en-US_ala-a39c4ac1-03cb-351b-8868-f64d7dd16de4" format="html" scope="external" outputclass="rdatk">statement of responsibility</xref>. Optionally, give names of members of a musical group in parentheses after the name of the group if deemed useful for identification or selection. Also record producers, directors, production designers, etc., if deemed useful
+            for identification or selection. </p>
+        <p>In MARC, record contributor notes using field 511 for performers, narrators, presenters, etc., or field 508 for producers, directors, production designers, etc. If feasible, also record structured descriptions (that is, authorized access points) for agents named in notes, as described in the <xref href="https://access.rdatoolkit.org/PolicyStatement/Index?externalId=en-US_ala-50397442-bc21-3b43-a598-fa89e81dfe69#division_rdaId_8e85a92d-f048-428b-ab0b-9355a26c4b70" format="html" scope="external" outputclass="mlatk">MLA Best Practices for Manifestation: statement of responsibility</xref>.</p>
+        <p>If there are numerous expressions embodied in the resource (see <xref href="../../LRM/aggregates.dita#aggregates/section_bjn_hn3_vrb"/>), and there are performers, etc. who perform only in some of the expressions, give all performers' names, qualified by a designation for the works/expressions involved, if feasible. Alternatively, record "Various performers" if:</p>
+        <ol id="ol_sh2_njx_rxb">
+            <li>Giving fuller detail is not feasible or not deemed useful for identification or selection; or,</li>
+            <li>Performers are named in a contents note in conjunction with the specific works/expressions in which they perform.</li>
+        </ol>
+        <p/>
+        <section id="section_pjw_pkx_rxb">
+            <title>Examples</title>
+            <p><b>Notes only</b></p>
+            <table conkeyref="bped_ex/table_byt_xkf_vrb" id="table_xgy_blx_rxb">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table conkeyref="bped_ex/table_cyt_xkf_vrb" id="table_jf3_clx_rxb">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <p><b>Performers named in contents note</b></p>
+            <table conkeyref="bped_ex/table_dyt_xkf_vrb" id="table_wlr_clx_rxb">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <p><b>Notes and access points</b></p>
+            <table conkeyref="bped_ex/table_vpt_xkf_vrb" id="table_wly_xkx_rxb">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table conkeyref="bped_ex/table_wpt_xkf_vrb" id="table_qgt_ykx_rxb">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table conkeyref="bped_ex/table_xpt_xkf_vrb" id="table_rrs_zkx_rxb">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </body>
+</topic>

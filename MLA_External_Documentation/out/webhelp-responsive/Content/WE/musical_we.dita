@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="musical_we">
+    <title>Musical Works and Expressions</title>
+    <body>
+        <p>Many instructions specific to musical works and expressions were removed from base RDA as part of the 3R project that concluded in December 2020. These instructions have been preserved in the Community Refinements area of the Community Resources section of the RDA Toolkit as <term>Anglo-American legacy instructions</term>.<fn>The final location of these instructions may change in a future Toolkit update.</fn></p>
+        <p>One result of this is that instructions and policy statements relevant to the construction and recording of access points for musical works and expressions are now scattered across many disparate pages. Work and expression cataloging tasks may involve the following RDA elements and community refinements to elements (hereafter abbreviated CR):</p>
+        <ul id="ul_ljk_gg4_trb">
+            <li>Work: <xref href="https://access.rdatoolkit.org/en-US_ala-f1aeca83-e610-3202-8706-bdfeb9975449" format="html" scope="external" outputclass="rdatk">access point for work</xref>
+                <ul id="ul_mjk_gg4_trb">
+                    <li>Work: <xref href="https://access.rdatoolkit.org/en-US_ala-086aad00-3bd2-3cc1-8dd0-52a5353b227b" format="html" scope="external" outputclass="rdatk">authorized access point for work</xref><ul id="ul_njk_gg4_trb">
+                            <li>CR: <xref href="https://access.rdatoolkit.org/en-US_ala-6b162749-88a5-3d79-a161-172b68601dd8" format="html" scope="external" outputclass="rdatk">authorized access point for musical work: Anglo-American legacy instructions</xref></li>
+                            <li>CR: <xref href="https://access.rdatoolkit.org/en-US_ala-8d20d787-34b7-30da-a5d0-b9c679453e93" format="html" scope="external" outputclass="rdatk">authorized access point for religious work: Anglo-American legacy instructions</xref></li>
+                        </ul></li>
+                    <li>Work: <xref href="https://access.rdatoolkit.org/en-US_ala-3975091a-4c88-332f-bc3e-a5c19e86d315" format="html" scope="external" outputclass="rdatk">variant access point for work</xref></li>
+                </ul></li>
+            <li>Work: <xref href="https://access.rdatoolkit.org/en-US_ala-f106d8cd-6853-320c-8608-04fd977a0603" format="html" scope="external" outputclass="rdatk">title of work</xref><ul id="ul_ojk_gg4_trb">
+                    <li>Work: <xref href="https://access.rdatoolkit.org/en-US_ala-f21836a5-7397-341a-bd4c-bd641e765511" format="html" scope="external" outputclass="rdatk">preferred title of work</xref><ul id="ul_pjk_gg4_trb">
+                            <li>CR: <xref href="https://access.rdatoolkit.org/en-US_ala-5476ebf7-f815-3d47-be2b-bf3c71bd1489" format="html" scope="external" outputclass="rdatk">preferred title of musical work: Anglo-American legacy instructions</xref></li>
+                        </ul></li>
+                    <li>Work: <xref href="https://access.rdatoolkit.org/en-US_ala-046d9a65-e489-39c7-a99e-31cc014127c5" format="html" scope="external" outputclass="rdatk">variant title of work</xref></li>
+                </ul></li>
+            <li>Expression: <xref href="https://access.rdatoolkit.org/en-US_ala-0eb21eb3-a2b4-3f0c-b76f-7df760946aad" format="html" scope="external" outputclass="rdatk">access point for expression</xref><ul id="ul_pp3_vr5_vrb">
+                    <li>Expression: <xref href="https://access.rdatoolkit.org/en-US_ala-7af61468-85ab-3d86-ad8d-4a1158edb7c7" format="html" scope="external" outputclass="rdatk">authorized access point for expression</xref></li>
+                </ul></li>
+            <li>Agent: <xref href="https://access.rdatoolkit.org/en-US_ala-793da8ae-3e0c-3b0e-9fc0-a4074f7b4195" format="html" scope="external" outputclass="rdatk">authorized access point for agent</xref> (or applicable narrower element).</li>
+        </ul>
+    </body>
+</topic>

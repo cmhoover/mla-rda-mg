@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="bib_formats_electronic">
+    <title>Format Guidance: Electronic Resources</title>
+    <body>
+        <section id="section_nyr_2t4_r5b">
+            <title>Preferred Sources of Information</title>
+            <p>Select sources of information based on the criteria under Guidance: <xref href="https://access.rdatoolkit.org/en-US_ala-cfa18e03-17f2-378a-874c-86515bf7e0ac/p_vhp_lbr_vfb" format="html" scope="external" outputclass="rdatk">Data provenance. Recording a source of metadata that is a manifestation that is being described</xref>.<fn>In the original Toolkit this corresponds to RDA 2.2.2.</fn> Where LC-PCC practice differs from RDA, follow LC-PCC practice. Where LC practice differs from PCC practice, exercise cataloger's judgment or defer to local policy.</p>
+            <p>For resources that mimic print formats (whether music or text), follow <xref href="https://access.rdatoolkit.org/en-US_ala-f18f5fbd-13cf-3361-9d9f-fc045c8d5777/34b0a976-1435-4ec2-b129-3aafd33e1959" format="html" scope="external" outputclass="lcpcctk">LC-PCC practice for reproductions of pages, sheets, leaves, or cards</xref>, regardless of whether the resource is born digital or a digital reproduction of a print original.</p>
+        </section>
+    </body>
+</topic>

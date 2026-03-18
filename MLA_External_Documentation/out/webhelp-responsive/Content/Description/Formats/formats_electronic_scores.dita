@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="formats_electronic_scores">
+    <title>Special Considerations for Scores</title>
+    <body>
+        <section id="section_fcw_3sp_r5b">
+            <title>Extent: Number of Subunits</title>
+            <p>If a score and one or more parts are combined in a single file, apply the <xref href="https://access.rdatoolkit.org/en-US_ala-8754c7a9-c38c-3735-9cf9-865df717f81b/div_gxb_htx_z2b" format="html" scope="external" outputclass="rdatk"><u>RDA instructions for resources issued as multiple parts in a single physical unit</u></xref>.</p>
+            <p>If a score and one or more parts are issued as separate files, apply the <xref href="https://access.rdatoolkit.org/en-US_ala-636ca576-7ec0-3b43-a0e0-fd57f783638a/2393aa1c-6edc-4be5-aa0c-0083b4da495f" format="html" scope="external" outputclass="mlatk"><u>MLA Best Practices instructions for resources issued as multiple parts in separate physical units</u></xref>. </p>
+            <table conkeyref="bped_ex/table_u2w_fyd_s5b" id="table_qsv_4d2_s5b">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table conkeyref="bped_ex/table_cnk_gyd_s5b" id="table_ab2_qd2_s5b">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table conkeyref="bped_ex/table_w4d_gyd_s5b" id="table_jfp_pd2_s5b">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section id="section_qgc_ksp_r5b">
+            <title>File type</title>
+            <p>The RDA File Type vocabulary currently contains no term suitable for files consisting principally of notated music (whether stored as a PDF, music notation software file, or other file encoding format), and the instructions for Manifestation: <i>file type</i> do not provide an option to record "other." Thus, do not record any value in field 347 $a for notated music. File type may be reflected, to some extent, by an identifier in field 006/09 as described under <xref href="formats_electronic_all.dita#formats_electronic_all/section_vz4_c4p_r5b">MARC Leader and Control Fields</xref>.</p>
+        </section>
+        <section id="section_xjs_ksp_r5b">
+            <title>Descriptive Access for Notated Music Resources Purchased as Digital Files</title>
+            <p>When a library purchases a score as an electronic file it must decide how users will be permitted to use it. There are three basic options for doing so, which may vary from file to file based on license restrictions, etc.:</p>
+            <ol>
+                <li>
+                    <p>Provide users with remote access to the file via a local file server, institutional repository, etc.</p>
+                </li>
+                <li>
+                    <p>Provide users with access to the file via a physical carrier (CD-ROM, USB drive, etc.)</p>
+                </li>
+                <li>
+                    <p>Provide users with a print reproduction of the file</p>
+                </li>
+            </ol>
+            <p>The option chosen will necessarily affect cataloging decisions. MLA recommends working together with other departments as necessary to create a set of consistent practices.</p>
+            <p>There are three basic cataloging approaches to consider:</p>
+            <ol>
+                <li>
+                    <p>Find or create a provider-neutral record for the original digital file only.</p>
+                    <ul>
+                        <li>
+                            <p>If the resource is available in an alternative format, some local method must be devised to direct users to the alternative formats available.</p>
+                        </li>
+                        <li>
+                            <p>If the original file is not publicly available, this approach may be misleading in discovery systems.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Find or create a record for the print reproduction or alternative electronic format only.</p>
+                    <ul>
+                        <li>
+                            <p>Create a provider-neutral record for a print reproduction following the guidelines for print-on-demand reproductions and photocopies in the <xref href="https://www.loc.gov/aba/rda/mgd/" format="html" scope="external"><u>LC-PCC Metadata Guidance Document</u></xref> "MG: Reproductions-Photocopies."</p>
+                            <ul>
+                                <li>
+                                    <p>The MGDs do not directly address printouts of born-digital resources. Treat a printout of a born-digital resource as a print-on-demand reproduction. </p>
+                                    <p>Because description is based on the original, and the original has no physical measurements, it is not necessary to record any value for Manifestation: <i>dimensions</i> in field 300 $c or 340 $b. The MGDs provide no guidance on this point. Omitting the dimensions has potential to cause confusion; however, keep in mind that there is no way to guarantee two printouts will be the same size and that just as much confusion may be caused by recording "incorrect" dimensions. Regardless of whether or not dimensions are recorded, add a Manifestation: <i>note on manifestation</i> indicating that the dimensions of the reproduction are not fixed, such as "Digital resource printout; reproduction size may
+                                        vary."</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>Create a record for an electronic resource on a physical carrier by applying the <xref href="formats_electronic_direct.dita">guidelines for direct-access electronic resources</xref>. Record a Manifestation: <i>note on manifestation</i> to indicate the carrier is not original.</p>
+                        </li>
+                        <li>
+                            <p>This approach accurately represents what is available to the public in discovery systems, but catalogers should ensure it meets the needs of other departments for inventory, audit, or other purposes.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Find or create provider-neutral records for both the original digital file and the alternative format. MLA recommends relating the records for the two manifestations using field 776.</p>
+                    <ul>
+                        <li>
+                            <p>This approach provides the most accurate description of the situation.</p>
+                        </li>
+                        <li>
+                            <p>If the original file is not publicly available, this approach may be misleading in discovery systems. Consider suppressing the original record from public display.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+    </body>
+</topic>

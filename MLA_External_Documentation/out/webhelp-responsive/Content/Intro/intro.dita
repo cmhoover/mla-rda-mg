@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="intro">
+    <title>Introduction to the Music Library Association RDA Metadata Guidance and Best Practices
+        for Music Cataloging Using RDA and MARC21</title>
+    <titlealts>
+        <navtitle>Introduction</navtitle>
+    </titlealts>
+    <prolog>
+        <critdates>
+            <created date="2021-12-09"/>
+            <revised modified=""/>
+        </critdates>
+    </prolog>
+    <body>
+        <p>This document, taken together with the <xref href="https://access.rdatoolkit.org/PolicyStatement/Index?externalId=en-US_mla_landing" format="html" scope="external" outputclass="mlatk">Music Library Association Best Practices for Music Cataloging Using RDA and MARC21</xref> , should:</p>
+        <ul id="ul_ow1_52c_wrb">
+            <li>Provide sufficient guidance for creating and enhancing both basic descriptions ("core" records) and more robust descriptions of musical resources and the musical works and expressions embodied therein. In MARC21, these descriptions take the form of bibliographic and authority records.</li>
+            <li>Be comprehensible and useful to all catalogers, regardless of experience with description standards or general cataloging skill level.</li>
+            <li>Be usable as the basis for training materials, such as cataloging manuals and workshop curricula.</li>
+            <li>Be amenable for repurposing for use in future data environments.</li>
+            <li>Be amenable for repurposing for use by agencies applying RDA in other languages.</li>
+        </ul>
+        <p>These guidelines do presume a basic level of training with RDA and LC-PCC PS, but assume no prior knowledge on the part of the reader of earlier versions of RDA or of <cite>Anglo-American Cataloging Rules, 2nd Edition, Revised</cite> (AACR2) or their accompanying Library of Congress Rule Interpretations (LCRI). Pertinent comparisons to AACR2 may be made in a limited number of cases when RDA practice differs fundamentally and catalogers may encounter AACR2 practice in preexisting metadata.</p>
+        <section id="section_uzk_mjc_wrb">
+            <title>Relationship to Other Standards for Description and Access</title>
+            <p>The MLA Best Practices and associated documentation are intended to be consulted in combination with RDA itself; <xref href="https://access.rdatoolkit.org/PolicyStatement/Index?externalId=en-US_lc_ps_landing" format="html" scope="external" outputclass="lcpcctk">LC-PCC Policy Statements</xref> and supplemental documentation, including the <xref href="https://www.loc.gov/aba/rda/mgd/index.html" format="html" scope="external">Resource Description &amp; Access (RDA) Metadata Guidance Documentation</xref>, and <xref href="https://www.loc.gov/catdir/cpso/z1andlcguidelines.html" format="html" scope="external">section Z1 of the Library of Congress Descriptive Cataloging Manual</xref>; and any local and/or cooperative policies. With a
+                few exceptions, cataloging guidelines of a general nature, such as for identifying and constructing access points for persons and corporate bodies, are out of scope for this document.</p>
+            <p>In cases where LC-PCC PS gives sufficient guidance or where the MLA Best Practices merely provide additional information, the LC-PCC PS text is in most cases incorporated into the MLA Best Practices for convenience. The insertion is done by reference ID rather than manual transcription so any referenced text will always reflect the most current LC-PCC PS revision. Some particularly long or complex LC-PCC PS statements may be linked rather than replicated for usability reasons.</p>
+            <p>Where MLA Best Practices contravene LC-PCC PS, the text is similarly reproduced for comparison.</p>
+            <p>MARC mappings and examples are intended to supplement the RDA to MARC mappings given in the Element Reference box of each element in the RDA Toolkit, as well as the MARC21 documentation itself and encoding guidelines specific to the cataloging interface.<fn>A prime example is OCLC’s Bibliographic Formats and Standards (<xref href="http://www.oclc.org/bibformats/" format="html" scope="external"/>)</fn></p>
+        </section>
+    </body>
+</topic>
